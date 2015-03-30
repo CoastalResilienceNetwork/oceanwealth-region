@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "7401895-14",
     "titleMain": { "text": "Mapping Ocean Wealth", "url": "http://oceanwealth.org/" },
-    "titleDetail": { "text": "Global and Regional Ecosystem Services", "url": "http://oceanwealth.org/" },
+    "titleDetail": { "text": "Global and Regional Ecosystem Services", "url": "http://oceanwealth.org/our-work/project-areas" },
 	"headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
