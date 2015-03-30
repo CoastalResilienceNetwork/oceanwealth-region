@@ -1,0 +1,116 @@
+{
+    "name": "Natural Defenses",
+    "text": "To begin, select a region to view.",
+	"globalText": "",
+	"methods": "plugins/natural_defenses/Online_Database_Methods.pdf",
+	"projectDesc": "http://www.snap.is/groups/coastal-defenses/",
+    "regions": [
+        {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Global/Natural_Defense_Projects/MapServer",
+			"items": [	
+				{
+					"type": "text",
+					"text": "Use the menu below to change symbology of the natural defense project points. Click any point to learn more about a project."			
+				},
+				{ 
+					"type": "select1",
+					"name": "selectSym",
+					"header": "Symbolize Projects By",
+					"options": [
+						{
+							"label": "Field",
+							"value": "none",
+							"selected": "false",
+							"disabled": "disabled"
+						},
+						{
+							"label": "Habitat",
+							"value": "0",
+							"selected": "false"
+						},
+						{
+							"label": "Project Objective",
+							"value": "1",
+							"selected": "false"
+						},
+						{
+							"label": "Coastal Classification",
+							"value": "2",
+							"selected": "false"
+						},
+						{
+							"label": "Site Exposure",
+							"value": "3",
+							"selected": "false"
+						}
+					]
+				},
+				{
+					"type": "headerT",
+					"text": "Symbolize By"
+				},
+				{
+					"type": "select",
+					"name": "fieldSelect",
+					"header": "And/Or Show Projects Where",
+					"name1": "attSelect",
+					"options": [
+						{
+							"label": "Field",
+							"value": "none",
+							"selected": "false",
+							"disabled": "disabled"
+						},
+						{
+							"label": "Habitat",
+							"value": "Habitat",
+							"selected": "false"
+						},
+						{
+							"label": "Project Objective",
+							"value": "ProjectObjective",
+							"selected": "false"
+						},
+						{
+							"label": "Coastal Classification",
+							"value": "Classification",
+							"selected": "false"
+						},
+						{
+							"label": "Site Exposure",
+							"value": "SiteExposure",
+							"selected": "false"
+						}
+					],
+					"options1": [
+						{
+							"label": "Attribute",
+							"value": "none",
+							"selected": "false",
+							"disabled": "disabled"
+						}
+					]
+				},
+				{
+					"type": "tabContainer",
+					"name": "tb",
+					"title1": "Overview",
+					"title2": "Effectiveness",
+					"title3": "Site Characteristics"
+				},
+				{
+					type: "featureLayer",
+					"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Global/Natural_Defense_Projects/MapServer/0",
+					"url1": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Global/Natural_Defense_Projects/MapServer/6",
+					"lineSym0": [161,70,18,1],
+					"lineWidth": 1,
+					"opcaity": 0.25,
+					"outfields": ["*"]
+				},
+				{
+					"type": "iden"
+				}
+			]
+        }
+    ]
+}
