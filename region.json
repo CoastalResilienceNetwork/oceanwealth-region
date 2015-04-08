@@ -110,11 +110,11 @@
                 "description": "Customized maps scenarios for adaptation, restoration and conservation planning.",
                 "issues": [
                     {
-                      "name": "Coasts at Risk",
-                      "description": "Combined storm surge and sea level condition in the Florida Keys",
+                      "name": "Mangrove Biomass in Papua New Guinea",
+                      "description": "Example one-click map",
                       "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTEzMzk0MsSjLjM0MDQ2NMSwM8SbecSexKA6LcSsOTE3MzYuNzg3NTE1NDg0xJvEnWF4xIYxMjcyODkwNS7EsDbFj8StNDfEs8SCxYw6OMS7xLwyM8WWOTY1xLrErjbEm3NwYXRpYWxSZWZlcsSMY8SUxIcid2tpZMWNMMSoMDDEm2zFsGVzdFfGgMaCOjM4NTd9xJtfxa9ydHPEhlvEiMSKxIzEjsW9xJHEk8SVxJfGocSaxJzEtcShxKPEpcSnxKnEq8StxK/EscWdxJ/EocS5xLvEvcS/xYHFg8WFxYfFicWexY3Fj8WRxZPFlcWXxZnEsMWcIsS0xYvEhsWhN8WjxaU0xafFqTHFq8Wtxa/FscWzxbXFt8W5bsW7xI/FvsaPxoPGhcaHIsaJxIvGjMaOxoHEhsaSxpR9xpYiZnJhbWVJZMacOlswXX3HvsWtZWxlY8SLZEJhc2XEgnBJbmTEicSGMMexxa9uZcSFxb3IlWVOdW1ixbjIksWtdMaKT2ZQbHVnxJ/HusSAyIrIg8iFZWTIp8ipxrY6bnVsbMSbcMioyKpuyKwiyLzItMi/L8aJecW4X8iuyIR0b3LHoXJvb3QvR2xvYsWzIERpc8iJxItyIEHIg8aaIGHIjyBDyZFyZMSfxbBpb24gU3nGjMiLL2dkYWNzyaLFuMabQciFaXZlQkfHoW/Fr2NpxJHIki41xJtjaMiEa8ixxIZmxbPIisexyZDJki/JqcmeyZnFtXNpbGnFumUgKMmVyZfFsynJlMmWyZhsyofKicqLecqNx4rKkcqTypU6ypdsypnHsMq/",
-                      "faIcon": "fa fa-anchor",
+                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGMTM3MzI5ODIuMjTEp8SrMjU2xJt5xJ7EoDotMTc1MDnEpsSqM8S/MTA4NjfEscScxIJ4xKHEqDLEojY0LjXEujcyxYMxxLLFiMSGNMWRM8SsLjE1McWhMTjEpMS/xJtzcGF0aWFsUmVmZXLEjGPElMSHIndraWTEoTDFjDAwxJtsxaplc3RXxbrFvDozODU3fcSbX8WpcnRzxIZbxIjEisSMxI7Ft8SRxJPElcSXxpvEmsWHxJ/EocSjxKXErcSqxKzEqDTEr8WGxLPGpcS2xLjEusS8OcS+xYDFgsWExYbEnWHFiTrFozLFjDPFjsWQxZLFlDbFliLEs8a9xZnFm8WdxZ/FosWjxaUzxafFqcWrxa3Fr8WxxbNuxbXEj8W4xonFvcW/xoEixoPEi8aGxojFu8SGxozGjn3GkCJmcmFtZUlkxpY6WzBdfce7xadlbGVjxItkQmFzZcSCcEluZMSJxKHHrsWpbmXEhcW3yJFlTnVtYsWyxIbHo8aGxoRPZlBsdWfEn8e3xIDIh8iAyIJlZMijyKXGsSJwyKTIpm5zL8aDecWyX8iqyIF0b3LGo8izyLDItseeyYPItci3yLnIu8i9yILJgMeecm9vdC9HbG9ixa0vT8W1YW5XZcWtdGjHnm/FqWNpxJHInS43xJtjaMiBa8itxIZmxa3Ih8etybd9",
+                      "faIcon": "fa fa-leaf",
                       "faSize": 32
                     },
                     {
