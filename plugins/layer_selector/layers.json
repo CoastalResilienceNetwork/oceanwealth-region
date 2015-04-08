@@ -1,137 +1,61 @@
 [
     {
         "agsSource": {
-            "url": "http://dmarcgis.jrc.it/ArcGIS/rest/services/GDACS",
-            "folderTitle": "Global Disaster Alert and Coordination System",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+            "folderTitle": "Global",
             "folders": [
                 {
 					"name": "",
                     "services": [
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Cyclones", "type":"dynamic", "opacity": 0.5 , "showLayers": [{"id":5,"parentLayerId":-1},{"id":6,"parentLayerId":-1},{"id":7,"parentLayerId":-1},{"id":8,"parentLayerId":-1}]}						
+						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Coral Reefs", "showLayers": [
+                                {"id":2, "parentLayerId":1 }
+							]
+						}	
 					]
-                },
+				},
 				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Volcanoes", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":1,"parentLayerId":-1},{"id":2,"parentLayerId":-1}] }		
-					]
-                },
-				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Floods", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":3,"parentLayerId":-1}] }		
-					]
-                },
-				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Earthquakes", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":4,"parentLayerId":-1}] }		
-					]
-                }
-            ]
-			
-        }
-    },
-	{
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Global",
-            "folderTitle": "Coastal Resilience (Global)",
-            "folders": [
-                {
 					"name": "",
                     "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"Coasts at Risk 2014", "showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2, "parentLayerId":-1 },
-                                {"id":3, "parentLayerId":-1 },
-                                {"id":4, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":-1 },
+						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Mangroves", "showLayers": [
+                                {"id":4, "parentLayerId":3 },
+                                {"id":5, "parentLayerId":3 }	
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate (10yrs)", "showLayers": [	
                                 {"id":6, "parentLayerId":-1 },
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":-1 },
+                                {"id":7, "parentLayerId":6 },
+                                {"id":8, "parentLayerId":6 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate 25yrs)", "showLayers": [		
                                 {"id":9, "parentLayerId":-1 },
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 },
+                                {"id":10, "parentLayerId":9 },
+                                {"id":11, "parentLayerId":9 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate 50yrs)", "showLayers": [	
                                 {"id":12, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 }
+                                {"id":13, "parentLayerId":12 },
+                                {"id":14, "parentLayerId":12 }	
 							]
 						}	
 					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"World Risk Index 2012", "showLayers": [
-                                {"id":16, "parentLayerId":-1 },
-                                {"id":17, "parentLayerId":-1 }	
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [	
-                                {"id":19, "parentLayerId":-1 },
-                                {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"Habitats", "showLayers": [		
-                                {"id":23, "parentLayerId":-1 },
-                                {"id":24, "parentLayerId":-1 },
-                                {"id":25, "parentLayerId":-1 },
-                                {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28, "parentLayerId":-1 },
-                                {"id":29, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"Coastal Hazards", "showLayers": [	
-                                {"id":31, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":34 },
-                                {"id":36, "parentLayerId":34 },
-                                {"id":37, "parentLayerId":34 },
-                                {"id":38, "parentLayerId":34 },
-                                {"id":39, "parentLayerId":34 },
-                                {"id":40, "parentLayerId":-1 },
-                                {"id":41, "parentLayerId":40 },
-                                {"id":42, "parentLayerId":40 },
-                                {"id":43, "parentLayerId":40 },
-                                {"id":44, "parentLayerId":40 },
-                                {"id":45, "parentLayerId":40 }		
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "Global", "type":"dynamic", "displayName":"Ecoregions and Provinces", "showLayers": [	
-                                {"id":47, "parentLayerId":-1 },
-                                {"id":48, "parentLayerId":-1 },
-                                {"id":49, "parentLayerId":-1 },
-                                {"id":50, "parentLayerId":-1 },
-                                {"id":51, "parentLayerId":-1 },
-                                {"id":52, "parentLayerId":-1 }						
-							]
-						}
-                    ]
-                }
+				}
             ]
         }
     }
