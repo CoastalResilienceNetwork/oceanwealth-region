@@ -47,8 +47,8 @@
 					"name": "",
                     "services": [
 						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate 50yrs)", "showLayers": [	
-                                {"id":13, "parentLayerId":12 },
-                                {"id":14, "parentLayerId":12 }	
+                                {"id":13, "parentLayerId":-1 },
+                                {"id":14, "parentLayerId":-1 }	
 							]
 						}	
 					]
