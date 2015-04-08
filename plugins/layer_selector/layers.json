@@ -8,6 +8,7 @@
 					"name": "",
                     "services": [
 						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Coral Reefs", "showLayers": [
+                                {"id":1, "parentLayerId":-1 },
                                 {"id":2, "parentLayerId":1 }
 							]
 						}	
@@ -17,6 +18,7 @@
 					"name": "",
                     "services": [
 						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Mangroves", "showLayers": [
+                                {"id":3, "parentLayerId":-1 },
                                 {"id":4, "parentLayerId":3 },
                                 {"id":5, "parentLayerId":3 }	
 							]
