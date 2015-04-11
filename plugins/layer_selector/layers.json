@@ -22,36 +22,6 @@
 							]
 						}	
 					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate (10yrs)", "showLayers": [	
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate 25yrs)", "showLayers": [		
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "OceanWealth", "type":"dynamic", "displayName":"Present Climate 50yrs)", "showLayers": [	
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 }	
-							]
-						}	
-					]
 				}
             ]
         }
