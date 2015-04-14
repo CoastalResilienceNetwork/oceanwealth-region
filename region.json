@@ -27,10 +27,8 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "natural_defenses",
         "layer_selector",
-		"flood_slr",
-        "zoom_to",
+		"zoom_to",
         "measure",
         "legend_display",
         "full_extent",
