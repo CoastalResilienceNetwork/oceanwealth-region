@@ -31,7 +31,7 @@
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
                                 {"id":10, "parentLayerId":-1 },
-                                {"id":12, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 },
                                 {"id":12, "parentLayerId":-1 }   
                             ]
                         }   
