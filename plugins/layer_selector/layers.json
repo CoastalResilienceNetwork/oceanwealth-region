@@ -1,51 +1,40 @@
 [
     {
         "agsSource": {
-            "url": "http://dmarcgis.jrc.it/ArcGIS/rest/services/GDACS",
-            "folderTitle": "Global Disaster Alert and Coordination System",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+            "folderTitle": "Global",
             "folders": [
                 {
 					"name": "",
                     "services": [
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Cyclones", "type":"dynamic", "opacity": 0.5 , "showLayers": [{"id":5,"parentLayerId":-1},{"id":6,"parentLayerId":-1},{"id":7,"parentLayerId":-1},{"id":8,"parentLayerId":-1}]}						
+						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "showLayers": [
+                                {"id":2, "parentLayerId":-1 },
+                                {"id":3, "parentLayerId":-1 },
+                                {"id":4, "parentLayerId":-1 }
+							]
+						}	
 					]
-                },
+				},
 				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Volcanoes", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":1,"parentLayerId":-1},{"id":2,"parentLayerId":-1}] }		
-					]
-                },
-				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Floods", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":3,"parentLayerId":-1}] }		
-					]
-                },
-				{
-					"name": "",
-                    "services": [			
-                        { "name": "gdacsAlertsActiveBG", "displayName": "Earthquakes", "type":"dynamic", "opacity": 0.5, "showLayers": [{"id":4,"parentLayerId":-1}] }		
-					]
-                }
-            ]
-			
-        }
-    },
-	{
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Global",
-            "folderTitle": "Coastal Resilience (Global)",
-            "folders": [
-                {
 					"name": "",
                     "services": [
-                        { "name": "Coasts_at_Risk_2014", "displayName": "Coasts at Risk 2014", "type":"dynamic", "opacity": 0.5 },
-						{ "name": "World_Risk_Index_2012", "displayName": "World Risk Index 2012", "type":"dynamic", "opacity": 0.5 },
-						{ "name": "Social_and_Economic", "displayName": "Social and Economic", "type":"dynamic", "opacity": 0.5 },
-                        { "name": "Habitats", "displayName": "Habitats", "type":"dynamic", "opacity": 0.5 },
-						{ "name": "Coastal_Hazards", "displayName": "Coastal Hazards", "type":"dynamic", "opacity": 0.5 },
-						{ "name": "Ecoregions_and_Provinces", "displayName": "Ecoregions and Provinces", "type":"dynamic", "opacity": 0.5 }
+						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "showLayers": [
+                                {"id":6, "parentLayerId":-1 },
+                                {"id":7, "parentLayerId":-1 },
+                                {"id":8, "parentLayerId":-1 }	
+							]
+						}	
+					]
+				},
+                {
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 },
+                                {"id":12, "parentLayerId":-1 }   
+                            ]
+                        }   
                     ]
                 }
             ]
