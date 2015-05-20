@@ -30,6 +30,7 @@
     "pluginOrder": [
         "layer_selector",
         "blue_carbon",
+        "fisheries",
         "natural_coastal_protection",
 		"zoom_to",
         "measure",
