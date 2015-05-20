@@ -29,7 +29,7 @@
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Fisheries", "description":"", "showLayers": [
                                 {"id":4, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":4 },
+                                {"id":5, "parentLayerId":4 }
                             ]
                         }   
                     ]
