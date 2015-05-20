@@ -8,111 +8,13 @@
 					"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Carbon", "description":"","showLayers": [
-                                {"id":1, "parentLayerId":-1 },
-                                {"id":2, "parentLayerId":1 }
+						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "description":"","showLayers": [
+                                {"id":2, "parentLayerId":-1 },
+                                {"id":5, "parentLayerId":-1 }
 							]
 						}	
 					]
 				}
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Fisheries",
-            "folders": [
-                {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Fisheries", "description":"", "showLayers": [
-                                {"id":4, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":4 }
-                            ]
-                        }   
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Natural Coastal Protection",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Natural Coastal Protection", "description":"", "showLayers": [
-                                {"id":7, "parentLayerId":-1 },
-                                {"id":8, "parentLayerId":7 },
-                                {"id":9, "parentLayerId":7 },
-                                {"id":10, "parentLayerId":7 },
-                                {"id":11, "parentLayerId":7 },
-                                {"id":12, "parentLayerId":7 },
-                                {"id":13, "parentLayerId":7 },
-                                {"id":14, "parentLayerId":7 }
-                            ]
-                        }   
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Recreation and Tourism",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Recreation and Tourism", "description":"","showLayers": [
-                                {"id":16, "parentLayerId":-1 },
-                                {"id":17, "parentLayerId":16 },
-                            ]
-                        }   
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Global Habitat Presence",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"", "showLayers": [
-                                {"id":18, "parentLayerId":-1 },
-                                {"id":19, "parentLayerId":-1 }
-                            ]
-                        }   
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Global Population Data",
-            "folders": [
-                {
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
-                                {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 }
-                            ]
-                        }   
-                    ]
-                }
             ]
         }
     }
