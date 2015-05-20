@@ -32,6 +32,7 @@
         "blue_carbon",
         "fisheries",
         "natural_coastal_protection",
+        "recreation_tourism",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -51,7 +52,7 @@
         "color": "#00C5CD",
         "opacity": 0.2,
         "clickToFocus": true,
-        "hideByDefault": false,
+        "hideByDefault": true,
         "areas": [
             {
                 "id": "caribbean",
