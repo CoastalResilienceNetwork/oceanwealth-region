@@ -5,9 +5,10 @@
             "folderTitle": "Carbon",
             "folders": [
                 {
-					"name": "",
+					"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "name": "",
                     "services": [
-						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "showLayers": [
+						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "description":"","showLayers": [
                                 {"id":2, "parentLayerId":-1 }
 							]
 						}	
@@ -22,9 +23,10 @@
             "folderTitle": "Fisheries",
             "folders": [
                 {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "description":"", "showLayers": [
                                 {"id":5, "parentLayerId":-1 }
                             ]
                         }   
@@ -41,7 +43,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"", "showLayers": [
                                 {"id":8, "parentLayerId":-1 },
                                 {"id":9, "parentLayerId":-1 },
                                 {"id":10, "parentLayerId":-1 },
@@ -64,7 +66,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"","showLayers": [
                                 {"id":17, "parentLayerId":-1 }
                             ]
                         }   
@@ -81,7 +83,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"", "showLayers": [
                                 {"id":18, "parentLayerId":-1 },
                                 {"id":19, "parentLayerId":-1 }
                             ]
@@ -99,7 +101,7 @@
                 {
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
                                 {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":-1 },
                                 {"id":22, "parentLayerId":-1 }
