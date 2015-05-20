@@ -9,12 +9,23 @@
                     "name": "",
                     "services": [
 						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "description":"","showLayers": [
-                                {"id":2, "parentLayerId":-1 },
-                                {"id":5, "parentLayerId":-1 }
+                                {"id":1, "parentLayerId":-1 },
+                                {"id":2, "parentLayerId":-1 }
 							]
 						}	
 					]
-				}
+				},
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Fisheries", "description":"","showLayers": [
+                                {"id":5, "parentLayerId":-1 },
+                                {"id":8, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                }
             ]
         }
     }
