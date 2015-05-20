@@ -29,6 +29,10 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "blue_carbon",
+        "fisheries",
+        "natural_coastal_protection",
+        "recreation_tourism",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -55,7 +59,7 @@
                 "display": "Caribbean",
                 "details": "MOW region",
                 "shape": [[-86.13631351769882, 14.69378359495471], [-86.13631351769882, 24.676706703547772], [-64.58074256241925, 24.676706703547772], [-64.58074256241925, 14.69378359495471], [-86.13631351769882, 14.69378359495471]],
-                "availablePlugins": ["layer_selector", "natural_defenses"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             },
@@ -64,7 +68,7 @@
                 "display": "Coral Triangle",
                 "details": "MOW region",
                 "shape": [[92.05583899705736, -15.211733080635105], [92.05583899705736, 18.735582236496978], [165.69329813458438, 18.735582236496978], [165.69329813458438, -15.211733080635105], [92.05583899705736, -15.211733080635105]],
-                "availablePlugins": ["layer_selector"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             },
@@ -73,7 +77,7 @@
                 "display": "Gulf of California",
                 "details": "MOW region",
                 "shape": [[-115.03522701681075, 20.414187629710725], [-115.03522701681075, 31.9709333346525], [-105.18496660072324, 31.9709333346525], [-105.18496660072324, 20.414187629710725], [-115.03522701681075, 20.4141876297107]],
-                "availablePlugins": ["layer_selector", "natural_defenses"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             },
@@ -82,7 +86,7 @@
                 "display": "Micronesia",
                 "details": "MEOW region",
                 "shape": [[-179.97693275121057, -17.23401021075821], [-179.97693275121057, 8.021398283033099], [-151.60754022439147, 8.021398283033099], [-151.60754022439147, -17.23401021075821], [-179.97693275121057, -17.23401021075821]],
-                "availablePlugins": ["layer_selector", "flood_slr"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             },
@@ -91,7 +95,7 @@
                 "display": "Northwestern Atlantic Coast",
                 "details": "MEOW region",
                 "shape": [[-77.35871624037601, 34.55968453400416], [-77.35871624037601, 51.89649130485867], [-42.793020450897025, 51.89649130485867], [-42.793020450897025, 34.55968453400416], [-77.35871624037601, 34.55968453400416]],
-                "availablePlugins": ["layer_selector", "flood_slr"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             }
