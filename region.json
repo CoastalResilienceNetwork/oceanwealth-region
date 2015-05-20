@@ -29,10 +29,10 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "recreation_tourism",
         "blue_carbon",
         "fisheries",
         "natural_coastal_protection",
-        "recreation_tourism",
 		"zoom_to",
         "measure",
         "legend_display",
