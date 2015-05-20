@@ -29,6 +29,8 @@
     ],
     "pluginOrder": [
         "layer_selector",
+        "blue_carbon",
+        "natural_coastal_protection",
 		"zoom_to",
         "measure",
         "legend_display",
