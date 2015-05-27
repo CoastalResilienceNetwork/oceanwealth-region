@@ -8,7 +8,7 @@ define([
         return declare(LayerSelectorPlugin, {
             toolbarName: "Fisheries",
             fullName: "Configure and control layers to be overlayed on the base map.",
-			infoGraphic: "",
+			infoGraphic: "plugins/fisheries/fishproduction.jpg",
 
             getLayersJson: function() {
                 return layerSourcesJson;
