@@ -8,14 +8,41 @@
                     "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"","showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protective Services from Coral Reefs", "description":"","showLayers": [
                                 {"id":8, "parentLayerId":-1 },
-                                {"id":9, "parentLayerId":-1 },
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 },
+                                {"id":9, "parentLayerId":8 },
+                                {"id":10, "parentLayerId":8 },
+                                {"id":11, "parentLayerId":8 },
                                 {"id":12, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 }
+                                {"id":13, "parentLayerId":12 },
+                                {"id":14, "parentLayerId":12 },
+                                {"id":15, "parentLayerId":12 },
+                                {"id":16, "parentLayerId":-1 },
+                                {"id":17, "parentLayerId":16 },
+                                {"id":18, "parentLayerId":16 },
+                                {"id":19, "parentLayerId":16 },
+                                {"id":20, "parentLayerId":-1 },
+                                {"id":21, "parentLayerId":20 },
+                                {"id":22, "parentLayerId":20 },
+                                {"id":23, "parentLayerId":20 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Global Coral Protection Index",
+            "folders": [
+                {
+                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
+                                {"id":24, "parentLayerId":-1 }
                             ]
                         }   
                     ]

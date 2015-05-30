@@ -9,8 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
-                                {"id":18, "parentLayerId":-1 },
-                                {"id":19, "parentLayerId":-1 }
+                                {"id":28, "parentLayerId":-1 },
+                                {"id":29, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -28,9 +28,9 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
-                                {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 }
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":-1 },
+                                {"id":32, "parentLayerId":-1 }
                             ]
                         }   
                     ]
