@@ -39,6 +39,9 @@
         "full_extent",
         "subregion_toggle"
     ],
+    "PluginBlacklist": [
+        "Coral_Reef_Connectivity"
+    ],
     "print": {
         "printServerUrl": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth/PrintingOW/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A OW"  
     },
