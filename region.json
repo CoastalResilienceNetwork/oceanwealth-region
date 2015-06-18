@@ -59,7 +59,7 @@
                 "display": "Caribbean",
                 "details": "MOW region",
                 "shape": [[-86.13631351769882, 14.69378359495471], [-86.13631351769882, 24.676706703547772], [-64.58074256241925, 24.676706703547772], [-64.58074256241925, 14.69378359495471], [-86.13631351769882, 14.69378359495471]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
+                "availablePlugins": ["layer_selector", "blue_carbon", "Coral_Reef_Connectivity","fisheries", "natural_coastal_protection", "recreation_tourism"],
                 "outlineColor": "#000",
                 "noFill": true
             },
