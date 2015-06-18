@@ -13,18 +13,26 @@
                                 {"id":9, "parentLayerId":8 },
                                 {"id":10, "parentLayerId":8 },
                                 {"id":11, "parentLayerId":8 },
-                                {"id":12, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":12 },
-                                {"id":14, "parentLayerId":12 },
-                                {"id":15, "parentLayerId":12 },
-                                {"id":16, "parentLayerId":-1 },
-                                {"id":17, "parentLayerId":16 },
-                                {"id":18, "parentLayerId":16 },
-                                {"id":19, "parentLayerId":16 },
+                                {"id":12, "parentLayerId":8 },
+                                {"id":13, "parentLayerId":8 },
+                                {"id":14, "parentLayerId":-1 },
+                                {"id":15, "parentLayerId":14 },
+                                {"id":16, "parentLayerId":14 },
+                                {"id":17, "parentLayerId":14 },
+                                {"id":18, "parentLayerId":14 },
+                                {"id":19, "parentLayerId":14 },
                                 {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":20 },
                                 {"id":22, "parentLayerId":20 },
-                                {"id":23, "parentLayerId":20 }
+                                {"id":23, "parentLayerId":20 },
+                                {"id":24, "parentLayerId":20 },
+                                {"id":25, "parentLayerId":20 },
+                                {"id":26, "parentLayerId":-1 },
+                                {"id":27, "parentLayerId":26 },
+                                {"id":28, "parentLayerId":26 },
+                                {"id":29, "parentLayerId":26 },
+                                {"id":30, "parentLayerId":26 },
+                                {"id":31, "parentLayerId":26 }
                             ]
                         }   
                     ]
@@ -42,7 +50,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":24, "parentLayerId":-1 }
+                                {"id":32, "parentLayerId":-1 }
                             ]
                         }   
                     ]
