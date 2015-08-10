@@ -1,11 +1,11 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
             "folderTitle": "Global Coral Protection Index",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
