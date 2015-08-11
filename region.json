@@ -93,7 +93,7 @@
             },
             {             
                 "id": "cold-temperate-northwestern-atlantic",
-                "display": "Northwestern Atlantic Coast",
+                "display": "Northwest Atlantic Coast",
                 "details": "MEOW region",
                 "shape": [[-77.35871624037601, 34.55968453400416], [-77.35871624037601, 51.89649130485867], [-42.793020450897025, 51.89649130485867], [-42.793020450897025, 34.55968453400416], [-77.35871624037601, 34.55968453400416]],
                 "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
