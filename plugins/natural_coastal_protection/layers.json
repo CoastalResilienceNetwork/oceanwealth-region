@@ -9,7 +9,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":32, "parentLayerId":-1 }
+                                {"id":24, "parentLayerId":-1 }
                             ]
                         }   
                     ]

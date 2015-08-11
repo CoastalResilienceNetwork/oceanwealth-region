@@ -1,16 +1,16 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
             "folderTitle": "Global Habitat Presence",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 }
+                                {"id":28, "parentLayerId":-1 },
+                                {"id":29, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -20,17 +20,17 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
             "folderTitle": "Global Population Data",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 }
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":-1 },
+                                {"id":32, "parentLayerId":-1 }
                             ]
                         }   
                     ]
