@@ -1,11 +1,11 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "folderTitle": "Coral Reef Connectivity",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"Ecological Habitats", "description":"","showLayers": [
@@ -17,7 +17,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"Coral Reef Connectivity", "description":"","showLayers": [
@@ -36,7 +36,7 @@
                     ]
                 },
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"LandScan 2012 Population", "description":"","showLayers": [

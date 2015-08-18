@@ -1,11 +1,11 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Habitat Presence",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
@@ -20,11 +20,11 @@
     },
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Population Data",
             "folders": [
                 {
-                    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/OceanWealth",
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
