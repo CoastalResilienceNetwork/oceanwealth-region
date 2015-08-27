@@ -54,7 +54,7 @@
         "color": "#00C5CD",
         "opacity": 0.2,
         "clickToFocus": true,
-        "hideByDefault": false,
+        "hideByDefault": true,
         "areas": [
             {
                 "id": "caribbean",
