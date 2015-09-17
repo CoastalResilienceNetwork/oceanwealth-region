@@ -8,31 +8,58 @@
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protective Services from Coral Reefs", "description":"","showLayers": [
-                                {"id":8, "parentLayerId":-1 },
-                                {"id":9, "parentLayerId":8 },
-                                {"id":10, "parentLayerId":8 },
-                                {"id":11, "parentLayerId":8 },
-                                {"id":12, "parentLayerId":8 },
-                                {"id":13, "parentLayerId":8 },
-                                {"id":14, "parentLayerId":-1 },
-                                {"id":15, "parentLayerId":14 },
-                                {"id":16, "parentLayerId":14 },
-                                {"id":17, "parentLayerId":14 },
-                                {"id":18, "parentLayerId":14 },
-                                {"id":19, "parentLayerId":14 },
-                                {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":20 },
-                                {"id":22, "parentLayerId":20 },
-                                {"id":23, "parentLayerId":20 },
-                                {"id":24, "parentLayerId":20 },
-                                {"id":25, "parentLayerId":20 },
-                                {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":26 },
-                                {"id":28, "parentLayerId":26 },
-                                {"id":29, "parentLayerId":26 },
-                                {"id":30, "parentLayerId":26 },
-                                {"id":31, "parentLayerId":26 }
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs", "description":"","showLayers": [
+                                {"id":7, "parentLayerId":-1 },
+                                {"id":8, "parentLayerId":7 },
+                                {"id":9, "parentLayerId":7 },
+                                {"id":10, "parentLayerId":7 },
+                                {"id":11, "parentLayerId":7 },
+                                {"id":12, "parentLayerId":-1 },
+                                {"id":13, "parentLayerId":12 },
+                                {"id":14, "parentLayerId":12 },
+                                {"id":15, "parentLayerId":12 },
+                                {"id":16, "parentLayerId":12 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "folderTitle": "Natural Coastal Protection",
+            "folders": [
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protective Services from Coral Reefs (Teselas)", "description":"","showLayers": [
+                                {"id":18, "parentLayerId":-1 },
+                                {"id":19, "parentLayerId":18 },
+                                {"id":20, "parentLayerId":18 },
+                                {"id":21, "parentLayerId":18 },
+                                {"id":22, "parentLayerId":18 },
+                                {"id":23, "parentLayerId":18 },
+                                {"id":24, "parentLayerId":-1 },
+                                {"id":25, "parentLayerId":24 },
+                                {"id":26, "parentLayerId":24 },
+                                {"id":27, "parentLayerId":24 },
+                                {"id":28, "parentLayerId":24 },
+                                {"id":29, "parentLayerId":24 },
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":30 },
+                                {"id":32, "parentLayerId":30 },
+                                {"id":33, "parentLayerId":30 },
+                                {"id":34, "parentLayerId":30 },
+                                {"id":35, "parentLayerId":30 },
+                                {"id":36, "parentLayerId":-1 },
+                                {"id":37, "parentLayerId":36 },
+                                {"id":38, "parentLayerId":36 },
+                                {"id":39, "parentLayerId":36 },
+                                {"id":40, "parentLayerId":36 },
+                                {"id":41, "parentLayerId":36 }
                             ]
                         }   
                     ]
@@ -50,7 +77,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":32, "parentLayerId":-1 }
+                                {"id":42, "parentLayerId":-1 }
                             ]
                         }   
                     ]
