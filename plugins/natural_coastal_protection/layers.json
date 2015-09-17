@@ -2,8 +2,6 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "folders": [
-                {
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
@@ -47,9 +45,7 @@
                         }   
                     ]
                 }
-            ]
-        }
-    },
+        },
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
