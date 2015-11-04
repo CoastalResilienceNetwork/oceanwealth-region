@@ -9,8 +9,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs", "description":"","showLayers": [
-                                {"id":7, "parentLayerId":-1, "displayName": "Zoom Test", "visibleSubLayerIds": [8,9,10,11,17] },
-                                {"id":15, "parentLayerId":-1 }
+                                {"id":7, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [8,17,18] }
                             ]
                         }   
                     ]
