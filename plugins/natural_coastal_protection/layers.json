@@ -9,7 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs 1-in-25 yr", "description":"","showLayers": [
-                                {"id":8, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [9,10,11] }
+                                {"id":7, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [8,9,10] },
+                                {"id":11, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -27,7 +28,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":20, "parentLayerId":-1 }
+                                {"id":19, "parentLayerId":-1 }
                             ]
                         }   
                     ]
