@@ -9,7 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs", "description":"","showLayers": [
-                                {"id":7, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [8,17,18] }
+                                {"id":7, "parentLayerId":-1},
+                                {"id":8, "parentLayerId":7, "displayName": "Population", "visibleSubLayerIds": [9,10,11] }
                             ]
                         }   
                     ]
@@ -27,7 +28,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":19, "parentLayerId":-1 }
+                                {"id":20, "parentLayerId":-1 }
                             ]
                         }   
                     ]
