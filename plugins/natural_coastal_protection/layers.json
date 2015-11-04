@@ -8,8 +8,7 @@
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs", "description":"","showLayers": [
-                                {"id":7, "parentLayerId":-1},
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs 1-in-25 yr", "description":"","showLayers": [
                                 {"id":8, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [9,10,11] }
                             ]
                         }   
