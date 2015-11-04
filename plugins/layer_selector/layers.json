@@ -37,5 +37,31 @@
                 }
             ]
         }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
+            "folderTitle": "Caribbean Coastal Vulnerability",
+            "folders": [
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
+                                {"id":52, "parentLayerId":-1 },
+                                {"id":53, "parentLayerId":-1 },
+                                {"id":54, "parentLayerId":-1 },
+                                {"id":55, "parentLayerId":-1 },
+                                {"id":56, "parentLayerId":-1 },
+                                {"id":57, "parentLayerId":-1 },
+                                {"id":58, "parentLayerId":-1 },
+                                {"id":59, "parentLayerId":-1 },
+                                {"id":60, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
     }
 ]
