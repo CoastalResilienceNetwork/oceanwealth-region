@@ -9,8 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 }
+                                {"id":23, "parentLayerId":-1 },
+                                {"id":24, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -28,9 +28,9 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":-1 },
-                                {"id":40, "parentLayerId":-1 }
+                                {"id":25, "parentLayerId":-1 },
+                                {"id":26, "parentLayerId":-1 },
+                                {"id":27, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -48,15 +48,15 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
-                                {"id":52, "parentLayerId":-1 },
-                                {"id":53, "parentLayerId":-1 },
-                                {"id":54, "parentLayerId":-1 },
-                                {"id":55, "parentLayerId":-1 },
-                                {"id":56, "parentLayerId":-1 },
-                                {"id":57, "parentLayerId":-1 },
-                                {"id":58, "parentLayerId":-1 },
-                                {"id":59, "parentLayerId":-1 },
-                                {"id":60, "parentLayerId":-1 }
+                                {"id":29, "parentLayerId":-1 },
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":-1 },
+                                {"id":32, "parentLayerId":-1 },
+                                {"id":33, "parentLayerId":-1 },
+                                {"id":34, "parentLayerId":-1 },
+                                {"id":35, "parentLayerId":-1 },
+                                {"id":36, "parentLayerId":-1 },
+                                {"id":37, "parentLayerId":-1 }
                             ]
                         }   
                     ]
