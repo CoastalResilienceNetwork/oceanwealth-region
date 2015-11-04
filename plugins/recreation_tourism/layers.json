@@ -9,7 +9,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"","showLayers": [
-                                {"id":23, "parentLayerId":-1 }
+                                {"id":22, "parentLayerId":-1 }
                             ]
                         }   
                     ]
