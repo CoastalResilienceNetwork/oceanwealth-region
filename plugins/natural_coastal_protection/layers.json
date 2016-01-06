@@ -1,6 +1,26 @@
 [
     {
         "agsSource": {
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "folderTitle": "Natural Coastal Protection",
+            "folders": [
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs 1-in-25 yr", "description":"","showLayers": [
+                                {"id":16, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [17,18,19] },
+                                {"id":20, "parentLayerId":-1, "displayName": "Built Capital", "visibleSubLayerIds": [21,22,23] },
+                                {"id":24, "parentLayerId":-1, "displayName": "Built Capital Relative to Total", "visibleSubLayerIds": [25,26] }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "agsSource": {
             "url": "http://services.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Coral Protection Index",
             "folders": [
@@ -9,7 +29,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Protection Index", "description":"","showLayers": [
-                                {"id":19, "parentLayerId":-1 }
+                                {"id":6, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -18,3 +38,8 @@
         }
     }
 ]
+
+
+
+
+

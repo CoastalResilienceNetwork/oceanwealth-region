@@ -9,8 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
-                                {"id":23, "parentLayerId":-1 },
-                                {"id":24, "parentLayerId":-1 }
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -28,9 +28,35 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
+                                {"id":12, "parentLayerId":-1 },
+                                {"id":13, "parentLayerId":-1 },
+                                {"id":14, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org/arcgis/rest/services",
+            "folderTitle": "Caribbean Coastal Vulnerability",
+            "folders": [
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Caribbean", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
+                                {"id":20, "parentLayerId":-1 },
+                                {"id":21, "parentLayerId":-1 },
+                                {"id":22, "parentLayerId":-1 },
+                                {"id":23, "parentLayerId":-1 },
+                                {"id":24, "parentLayerId":-1 },
                                 {"id":25, "parentLayerId":-1 },
                                 {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 }
+                                {"id":27, "parentLayerId":-1 },
+                                {"id":28, "parentLayerId":-1 }
                             ]
                         }   
                     ]
