@@ -9,7 +9,7 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"","showLayers": [
-                                {"id":22, "parentLayerId":-1 }
+                                {"id":9, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -18,7 +18,7 @@
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Caribbean", "type":"dynamic", "displayName":"Recreation", "description":"","showLayers": [
+                        { "name": "Caribbean", "type":"dynamic", "displayName":"Caribbean Recreation", "description":"","showLayers": [
                                 {"id":17, "parentLayerId":-1 },
                                 {"id":18, "parentLayerId":-1 }
                             ]
