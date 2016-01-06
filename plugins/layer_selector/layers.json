@@ -9,8 +9,8 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
-                                {"id":23, "parentLayerId":-1 },
-                                {"id":24, "parentLayerId":-1 }
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -28,9 +28,9 @@
                     "name": "",
                     "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Population Data", "description":"","showLayers": [
-                                {"id":25, "parentLayerId":-1 },
-                                {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 }
+                                {"id":12, "parentLayerId":-1 },
+                                {"id":13, "parentLayerId":-1 },
+                                {"id":14, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -47,16 +47,16 @@
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
-                                {"id":29, "parentLayerId":-1 },
-                                {"id":30, "parentLayerId":-1 },
-                                {"id":31, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 },
-                                {"id":33, "parentLayerId":-1 },
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":-1 },
-                                {"id":36, "parentLayerId":-1 },
-                                {"id":37, "parentLayerId":-1 }
+                        { "name": "Caribbean", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
+                                {"id":20, "parentLayerId":-1 },
+                                {"id":21, "parentLayerId":-1 },
+                                {"id":22, "parentLayerId":-1 },
+                                {"id":23, "parentLayerId":-1 },
+                                {"id":24, "parentLayerId":-1 },
+                                {"id":25, "parentLayerId":-1 },
+                                {"id":26, "parentLayerId":-1 },
+                                {"id":27, "parentLayerId":-1 },
+                                {"id":28, "parentLayerId":-1 }
                             ]
                         }   
                     ]

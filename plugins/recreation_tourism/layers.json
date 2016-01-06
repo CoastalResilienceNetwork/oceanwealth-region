@@ -13,6 +13,17 @@
                             ]
                         }   
                     ]
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Caribbean", "type":"dynamic", "displayName":"Recreation", "description":"","showLayers": [
+                                {"id":17, "parentLayerId":-1 },
+                                {"id":18, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
                 }
             ]
         }
