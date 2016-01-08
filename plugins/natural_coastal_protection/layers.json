@@ -8,7 +8,7 @@
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Protection from Coral Reefs 1-in-25 yr", "description":"","showLayers": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Reef Flood Benefits - 25 yr Storm", "description":"","showLayers": [
                                 {"id":16, "parentLayerId":-1, "displayName": "Population", "visibleSubLayerIds": [17,18,19] },
                                 {"id":20, "parentLayerId":-1, "displayName": "Built Capital", "visibleSubLayerIds": [21,22,23] },
                                 {"id":24, "parentLayerId":-1, "displayName": "Built Capital Relative to Total", "visibleSubLayerIds": [25,26] }
