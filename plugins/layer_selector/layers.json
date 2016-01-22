@@ -63,5 +63,25 @@
                 }
             ]
         }
+    },
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
+            "folderTitle": "Cayman Coastal Vulnerability",
+            "folders": [
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Caribbean", "type":"dynamic", "displayName":"Cayman Coastal Vulnerability", "description":"","showLayers": [
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":-1 },
+                                {"id":32, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                }
+            ]
+        }
     }
 ]
