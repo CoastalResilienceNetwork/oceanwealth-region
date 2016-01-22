@@ -29,14 +29,14 @@
                     "name": "",
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"Cayman Coastal Protection", "description":"","showLayers": [
-                                {"id":34, "parentLayerId":-1 },
-                                {"id":35, "parentLayerId":34 },
-                                {"id":36, "parentLayerId":34 },
-                                {"id":37, "parentLayerId":34 },
-                                {"id":38, "parentLayerId":-1 },
-                                {"id":39, "parentLayerId":38 },
-                                {"id":40, "parentLayerId":38 },
-                                {"id":41, "parentLayerId":38 }
+                                {"id":48, "parentLayerId":-1 },
+                                {"id":49, "parentLayerId":48 },
+                                {"id":50, "parentLayerId":48 },
+                                {"id":51, "parentLayerId":48 },
+                                {"id":52, "parentLayerId":-1 },
+                                {"id":53, "parentLayerId":52 },
+                                {"id":54, "parentLayerId":52 },
+                                {"id":55, "parentLayerId":52 }
                             ]
                         }   
                     ]
