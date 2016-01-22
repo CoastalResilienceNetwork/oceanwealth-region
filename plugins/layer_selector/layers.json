@@ -49,14 +49,28 @@
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"Caribbean Coastal Vulnerability", "description":"","showLayers": [
                                 {"id":20, "parentLayerId":-1 },
-                                {"id":21, "parentLayerId":-1 },
-                                {"id":22, "parentLayerId":-1 },
-                                {"id":23, "parentLayerId":-1 },
-                                {"id":24, "parentLayerId":-1 },
+                                {"id":21, "parentLayerId":20 },
+                                {"id":22, "parentLayerId":20 },
+                                {"id":23, "parentLayerId":20 },
+                                {"id":24, "parentLayerId":20 },
                                 {"id":25, "parentLayerId":-1 },
-                                {"id":26, "parentLayerId":-1 },
-                                {"id":27, "parentLayerId":-1 },
-                                {"id":28, "parentLayerId":-1 }
+                                {"id":26, "parentLayerId":25 },
+                                {"id":27, "parentLayerId":25 },
+                                {"id":28, "parentLayerId":25 },
+                                {"id":29, "parentLayerId":25 },
+                                {"id":30, "parentLayerId":25 },
+                                {"id":31, "parentLayerId":-1 },
+                                {"id":32, "parentLayerId":31 },
+                                {"id":33, "parentLayerId":31 },
+                                {"id":34, "parentLayerId":31 },
+                                {"id":35, "parentLayerId":31 },
+                                {"id":36, "parentLayerId":-1 },
+                                {"id":37, "parentLayerId":36 },
+                                {"id":38, "parentLayerId":36 },
+                                {"id":39, "parentLayerId":36 },
+                                {"id":40, "parentLayerId":36 },
+                                {"id":41, "parentLayerId":36 },
+                                {"id":42, "parentLayerId":-1 }
                             ]
                         }   
                     ]
@@ -74,9 +88,9 @@
                     "name": "",
                     "services": [
                         { "name": "Caribbean", "type":"dynamic", "displayName":"Cayman Coastal Vulnerability", "description":"","showLayers": [
-                                {"id":30, "parentLayerId":-1 },
-                                {"id":31, "parentLayerId":-1 },
-                                {"id":32, "parentLayerId":-1 }
+                                {"id":44, "parentLayerId":-1 },
+                                {"id":45, "parentLayerId":-1 },
+                                {"id":46, "parentLayerId":-1 }
                             ]
                         }   
                     ]
