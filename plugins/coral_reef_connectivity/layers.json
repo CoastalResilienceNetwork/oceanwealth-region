@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "url": "http://dservices.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "folderTitle": "Coral Reef Connectivity",
             "folders": [
                 {
