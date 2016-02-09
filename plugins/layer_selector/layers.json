@@ -1,6 +1,26 @@
 [
     {
         "agsSource": {
+            "url": "",
+            "folderTitle": "World Database on Protected Areas (WDPA)",
+            "folders": [
+                {
+                "url": "http://ec2-54-204-216-109.compute-1.amazonaws.com:6080/arcgis/rest/services/wdpa",
+                "name": "",
+                "services": [
+                    { "name": "wdpa",
+                    "displayName": "WDPA",
+                    "type": "dynamic",
+                    "visibleLayerIds": [0,1],
+                    "showLayers": []
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    {
+        "agsSource": {
             "url": "http://services.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Habitat Presence",
             "folders": [
