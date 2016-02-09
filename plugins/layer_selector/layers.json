@@ -1,6 +1,26 @@
 [
     {
         "agsSource": {
+            "url": "",
+            "folderTitle": "Hurricane Sandy",
+            "folders": [
+                {
+                "url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy",
+                "name": "",
+                "services": [
+                    { "name": "SurgeBoundaries_Final_0214",
+                    "displayName": "Final FEMA Surge Area - February 2013",
+                    "type": "dynamic",
+                    "visibleLayerIds": [0,1,2],
+                    "showLayers": []
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    {
+        "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Habitat Presence",
             "folders": [
