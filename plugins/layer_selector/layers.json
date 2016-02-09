@@ -13,6 +13,13 @@
                     "type": "dynamic",
                     "visibleLayerIds": [0,1],
                     "showLayers": []
+                }, 
+                {
+                    "name": "wdpa_marine",
+                    "displayName": "WDPA Marine",
+                    "type": "dynamic",
+                    "visibleLayerIds": [0,1],
+                    "showLayers": []
                         }
                     ]
                 }
