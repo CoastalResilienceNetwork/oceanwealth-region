@@ -15,9 +15,7 @@
                     "showLayers": []
                 }, 
                 {
-                "name": "",
-                "services": [
-                    { "name": "wdpa_marine",
+                    "name": "wdpa_marine",
                     "displayName": "WDPA Marine",
                     "type": "dynamic",
                     "visibleLayerIds": [0,1],
@@ -26,7 +24,8 @@
                     ]
                 }
             ]
-    },
+        }
+    }, 
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
