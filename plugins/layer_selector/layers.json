@@ -2,16 +2,16 @@
     {
         "agsSource": {
             "url": "",
-            "folderTitle": "Hurricane Sandy",
+            "folderTitle": "World Database on Protected Areas (WDPA)",
             "folders": [
                 {
-                "url": "http://services.femadata.com/arcgis/rest/services/2012_Sandy",
+                "url": "http://ec2-54-204-216-109.compute-1.amazonaws.com:6080/arcgis/rest/services/wdpa",
                 "name": "",
                 "services": [
-                    { "name": "SurgeBoundaries_Final_0214",
-                    "displayName": "Final FEMA Surge Area - February 2013",
+                    { "name": "wdpa",
+                    "displayName": "WDPA",
                     "type": "dynamic",
-                    "visibleLayerIds": [0,1,2],
+                    "visibleLayerIds": [0,1],
                     "showLayers": []
                         }
                     ]
