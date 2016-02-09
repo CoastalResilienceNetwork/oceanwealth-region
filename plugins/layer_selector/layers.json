@@ -26,8 +26,7 @@
                     ]
                 }
             ]
-        }
-    }, 
+    },
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
