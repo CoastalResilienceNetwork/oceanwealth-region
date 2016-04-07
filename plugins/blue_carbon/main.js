@@ -8,7 +8,7 @@ define([
         return declare(LayerSelectorPlugin, {
             toolbarName: "Blue Carbon",
             fullName: "Configure and control layers to be overlayed on the base map.",
-			infoGraphic: "",
+			infoGraphic: "plugins/blue_carbon/BlueCarbon_InfoGraph.png",
 
             getLayersJson: function() {
                 return layerSourcesJson;
