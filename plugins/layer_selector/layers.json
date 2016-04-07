@@ -101,15 +101,7 @@
                             ]
                         }   
                     ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
-            "folderTitle": "Cayman Coastal Vulnerability",
-            "folders": [
+                },
                 {
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
@@ -121,15 +113,7 @@
                             ]
                         }   
                     ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Coral Reef Connectivity",
-            "folders": [
+                },
                 {
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
@@ -170,15 +154,7 @@
                             ]
                         }   
                     ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services",
-            "folderTitle": "Caribbean Recreation",
-            "folders": [
+                },
     			{
                     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
