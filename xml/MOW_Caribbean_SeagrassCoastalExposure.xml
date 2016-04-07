@@ -3,20 +3,20 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>Seagrass - Modeled exposure reduction to coastal populations &gt;500 people</title>
+        <title>Seagrass - Modeled exposure to the coast</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>These data represents the modeled reduction in coastal exposure by seagrass habitats to coastal populations greater than 500 people. The index was created using the InVEST Coastal Vulnerability model that produces a qualitative estimate of relatively high or low exposure to erosion and inundation during storms. By coupling these results with global population information, the model can show areas along a given coastline where humans are most vulnerable to storm waves and surge. Once vulnerable portions of the coastline have been identified (using a threshold derived from vulnerability), the Coastal Protection Model(s) is used to evaluate the protective benefit of natural coastal protection assets. For the geomorphology file we used the following shoreline habitats and rankings: Beaches (5), Mangroves (4), Unclassified (3), Rocky Shores (2). These shoreline types were mapped using heads-up digitization of high resolution image databases (Google Earth and Microsoft Bing). The following protective distances were applied to the natural habitats: Coral Reef (3000m), Mangrove (3,500m), Seagrass (500m), Beach (0m). The coral reef habitat came from the global Millennial Coral Reef maps mapped using Landsat 7 imagery, the seagrass from a compilation of UNEP/WCMC data and Landsat-derived products, and the mangroves and beach data was digitized from high resolution image databases (Google Earth and Microsoft Bing). The global GEBCO database was used for bathymetry (1km), SRTM v3 (30m) for the elevation, and the coastline was represented using the NGA 100k shoreline product from the 2000 global Landsat orthomosaic. The wave exposure data (wind and wave) came from the WaveWatch III database and Landscan 2012 (1km) was used for the population data. Outputs can be used to better understand the relative contributions of these different model variables to coastal exposure and highlight the protective services offered by natural habitats to coastal populations. This information can help coastal managers, planners, landowners and other stakeholders identify regions of greater risk to coastal hazards, which can in turn better inform development strategies and permitting. As the results provide a qualitative representation of erosion and inundation risks rather than quantifying shoreline retreat or inundation limits.</abstract>
+      <abstract>These data represents the modeled output of coastal exposure as an index and the affect seagrass areas have on reducing that exposure. The index was created using the InVEST Coastal Vulnerability model that produces a qualitative estimate of relatively high or low exposure to erosion and inundation during storms. By coupling these results with global population information, the model can show areas along a given coastline where humans are most vulnerable to storm waves and surge. Once vulnerable portions of the coastline have been identified (using a threshold derived from vulnerability), the Coastal Protection Model(s) is used to evaluate the protective benefit of natural coastal protection assets. For the geomorphology file we used the following shoreline habitats and rankings: Beaches (5), Mangroves (4), Unclassified (3), Rocky Shores (2). These shoreline types were mapped using heads-up digitization of high resolution image databases (Google Earth and Microsoft Bing). The following protective distances were applied to the natural habitats: Coral Reef (3000m), Mangrove (3,500m), Seagrass (500m), Beach (0m). The coral reef habitat came from the global Millennial Coral Reef maps mapped using Landsat 7 imagery, the seagrass from a compilation of UNEP/WCMC data and Landsat-derived products, and the mangroves and beach data was digitized from high resolution image databases (Google Earth and Microsoft Bing). The global GEBCO database was used for bathymetry (1km), SRTM v3 (30m) for the elevation, and the coastline was represented using the NGA 100k shoreline product from the 2000 global Landsat orthomosaic. The wave exposure data (wind and wave) came from the WaveWatch III database and Landscan 2012 (1km) was used for the population data. Outputs can be used to better understand the relative contributions of these different model variables to coastal exposure and highlight the protective services offered by natural habitats to coastal populations. This information can help coastal managers, planners, landowners and other stakeholders identify regions of greater risk to coastal hazards, which can in turn better inform development strategies and permitting. As the results provide a qualitative representation of erosion and inundation risks rather than quantifying shoreline retreat or inundation limits.</abstract>
       <purpose>These data layers were created by The Nature Conservancy’s Caribbean Program and the University of California-Santz Cruz’s Center for Integrated Spatial Research for the Mapping Ocean Wealth project in October 2015. The goal of this project is to use science, communications, and policy work to visualize and quantify the ocean’s ecosystem, so that we can make smarter investments and decisions for the ocean of tomorrow. In the Caribbean, we used the InVEST tool to model ecosystem services for coral reefs, mangroves, and seagrass beds to visualize how these coastal habitats provide benefits in terms of coastal protection and recreation/tourism. Find out more at http://oceanwealth.org</purpose>
     </descript>
     <spdom>
       <bounding>
-        <westbc>-83.915046</westbc>
-        <eastbc>-59.554696</eastbc>
-        <northbc>25.085161</northbc>
-        <southbc>13.067274</southbc>
+        <westbc>-84.963594</westbc>
+        <eastbc>-59.418569</eastbc>
+        <northbc>27.271195</northbc>
+        <southbc>11.135039</southbc>
       </bounding>
     </spdom>
     <accconst>None</accconst>
@@ -29,7 +29,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>Entity point</sdtstype>
-        <ptvctcnt>94</ptvctcnt>
+        <ptvctcnt>17671</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -62,7 +62,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>MOW_Caribbean_SeagrassExposurePop</enttypl>
+        <enttypl>MOW_Caribbean_SeagrassCoastalExposure</enttypl>
       </enttyp>
       <attr>
         <attrlabl>OBJECTID</attrlabl>

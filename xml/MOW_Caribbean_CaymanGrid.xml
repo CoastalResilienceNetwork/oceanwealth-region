@@ -3,20 +3,22 @@
 	<idinfo>
 		<citation>
 			<citeinfo>
-				<title>MOW_Caribbean_Reef_Connections</title>
+				<title>MOW_Caribbean_CaymanGrid</title>
 				<geoform>vector digital data</geoform>
 			</citeinfo>
 		</citation>
 		<descript>
-			<abstract>Coral Dispersal ModelWe modelled two coral spawning events per year from 2008 to 2011 with each simulation starting on the last quarter moons of August and September, based on observations of coral mass spawning events. These dates were 23 August 2008, 22 September 2008, 13 August 2009, 12 September 2009, 1 September 2010, 1 October 2010, 21 August 2011, and 20 September 2011.  The dispersal model included the following parameters: time and frequency of spawning, pelagic larval duration, settlement behaviour, and larval mortality influence the dispersal, settlement, and recruitment rates in the model.  In each simulation, the amount of larvae released was proportional to the reef area within each reef unit.  For each simulation, we used a pelagic larval duration (PLD) of 30 days and a mortality rate of 20% day-1. The primary output of each simulation represented an estimate of the total amount of larvae transported between each of the 423 reef units, including local-retention.  We calculated a time-averaged connection strength by averaging the total settled larvae across simulations and the probability of larval dispersal among all reefs.  These values provided all possible reef connections attributed with the originating and destination reef unit ids as well as the modeled larvae settlement and probability estimates.</abstract>
-			<purpose>We used NOAA’s Real Time Ocean Forecasting System (RTOFS) ocean circulation model and regional coral reef data to simulate eight coral spawning events from 2008-2011, applying a 30-day pelagic larval duration and 20% mortality rate. Larval dispersal patterns were analyzed between reef units across jurisdictional marine zones in order to identify spatial relationships between larval sources and destinations within countries and territories across the region. Ocean current data were acquired from the NOAA Real-Time Ocean Forecast System (RTOFS) database. RTOFS constitutes predicted circulation values while integrating tidal patterns and is based on the Hybrid Coordinate Ocean Model (HYCOM). These data are a basin-scale ocean forecast system for the northern Atlantic and part of the southern Atlantic Ocean, using a variable size grid resolution ranging from 4 to 17 km, and extending from 25°S to 72°N and to 98°W to 16°E. Evaluations of the RTOFS performance indicate that predictions compare well to historical observations at regional scales.</purpose>
+			<abstract>This data represents the number of Photo User Days (PUDs) to estimate the amount of recreation and tourism occuring around the Cayman Islands. Since fine-scale data on numbers of visitors is often only collected at a few specific locations in any study region, we assume that current visitation can be approximated by the total number of annual person-days of photographs uploaded to the photo-sharing website flickr. Many of the photographs in flickr have been assigned to a specific latitude/longitude. Using this location, along with the photographer’s user name and date that the image was taken, the InVEST tool computes the total annual days that a user took at least one photograph within each cell, then returns to users the average annual number of photo-user-days from 2005-2012. We have observed that the number of recreators who visit a location annually is related to the number of photographs taken in the same area and uploaded to the flickr database at 836 visitor attractions worldwide (Wood et al. 2013). The density of photographs varies spatially, and this has ramifications for the cell-size that can be chosen for analysis. For this specific analysis, we used a cell size of 250m and calculated the PUDs for an area of interest that covers the entire Cayman Island land and ocean shelf area (200m 2014 GEBCO). All the cells that resulted as "0" were removed.</abstract>
+			<purpose>These data layers were created by The Nature Conservancy’s Caribbean Program for the Mapping Ocean Wealth project in October 2015. The goal of this project is to use science, communications, and policy work to visualize and quantify the ocean’s ecosystem, so that we can make smarter investments and decisions for the ocean of tomorrow. In the Caribbean, we used the InVEST tool to model the number of visitors within the Caribbean to estimate high and low areas of recreation/tourism. Find out more at http://oceanwealth.org.
+
+</purpose>
 		</descript>
 		<spdom>
 			<bounding>
-				<westbc>-97.278105</westbc>
-				<eastbc>-59.441065</eastbc>
-				<northbc>32.343167</northbc>
-				<southbc>8.555351</southbc>
+				<westbc>-81.432554</westbc>
+				<eastbc>-79.722078</eastbc>
+				<northbc>19.755270</northbc>
+				<southbc>19.247996</southbc>
 			</bounding>
 		</spdom>
 		<accconst>None</accconst>
@@ -28,8 +30,8 @@
 		<direct>Vector</direct>
 		<ptvctinf>
 			<sdtsterm>
-				<sdtstype>String</sdtstype>
-				<ptvctcnt>23127</ptvctcnt>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>2555</ptvctcnt>
 			</sdtsterm>
 		</ptvctinf>
 	</spdoinfo>
@@ -62,7 +64,7 @@
 	<eainfo>
 		<detailed>
 			<enttyp>
-				<enttypl>MOW_Caribbean_Reef_Connections</enttypl>
+				<enttypl>MOW_Caribbean_CaymanGrid</enttypl>
 			</enttyp>
 			<attr>
 				<attrlabl>OBJECTID</attrlabl>
@@ -81,82 +83,19 @@
 				</attrdomv>
 			</attr>
 			<attr>
-				<attrlabl>fromreef</attrlabl>
+				<attrlabl>cellID</attrlabl>
 			</attr>
 			<attr>
-				<attrlabl>toreef</attrlabl>
+				<attrlabl>usdyav</attrlabl>
 			</attr>
 			<attr>
-				<attrlabl>fromcntry</attrlabl>
+				<attrlabl>usdyav_pr</attrlabl>
 			</attr>
 			<attr>
-				<attrlabl>tocountry</attrlabl>
+				<attrlabl>cellArea</attrlabl>
 			</attr>
 			<attr>
-				<attrlabl>p_30d_40p</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_30d_20p</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_20d_40p</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_20d_20p</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_10d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_10d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_10d_40m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_20d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_20d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_20d_40m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_30d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_30d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>p_30d_40m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_10d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_10d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_10d_40m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_20d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_20d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_20d_40m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_30d_20m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_30d_30m</attrlabl>
-			</attr>
-			<attr>
-				<attrlabl>d_30d_40m</attrlabl>
+				<attrlabl>usdyav_est</attrlabl>
 			</attr>
 			<attr>
 				<attrlabl>Shape_Length</attrlabl>
@@ -166,12 +105,20 @@
 					<udom>Positive real numbers that are automatically generated.</udom>
 				</attrdomv>
 			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
 		</detailed>
 	</eainfo>
 	<metainfo>
-		<metd>20150618</metd>
+		<metd>20151209</metd>
 		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
 		<metstdv>FGDC-STD-001-1998</metstdv>
 		<mettc>local time</mettc>
 	</metainfo>
-	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\FL314-FTVLLV1\E$\Documents\Mapping Ocean Wealth\xmls\Car_Connectivity\MOW_Caribbean_Reef_Connections</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="E:\Documents\Mapping Ocean Wealth\xmls\MOW_Caribbean_Reef_Connections" dest="\\FL314-FTVLLV1\E$\Documents\Mapping Ocean Wealth\xmls\Car_Connectivity\MOW_Caribbean_Reef_Connections" date="20160314" time="08152500"></copy></copyHistory></DataProperties></Esri></metadata>
+	<Esri><CreaDate>20160314</CreaDate><CreaTime>08301600</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\FL314-FTVLLV1\C$\Users\LRoth\Box Sync\Mapping Ocean Wealth\xmls\Recreation\MOW_Caribbean_CaymanGrid_export</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="E:\Documents\Mapping Ocean Wealth\Packages&amp;xmls\Recreation\MOW_Caribbean_CaymanGrid_export" dest="\\FL314-FTVLLV1\C$\Users\LRoth\Box Sync\Mapping Ocean Wealth\xmls\Recreation\MOW_Caribbean_CaymanGrid_export" date="20160314" time="08301600"></copy></copyHistory></DataProperties></Esri></metadata>
