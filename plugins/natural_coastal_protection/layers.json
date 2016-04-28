@@ -10,7 +10,7 @@
                     "services": [
                         { "name": "Natural_Coastal_Protection", "type":"dynamic", "displayName":"Natural Coastal Protection - Plugin", "description":"","showLayers": [
                                 {"id":0, "parentLayerId":-1 },
-                                {"id":1, "parentLayerId":-1 },
+                                {"id":1, "parentLayerId":-1 }
                             ]
                         }   
                     ]
