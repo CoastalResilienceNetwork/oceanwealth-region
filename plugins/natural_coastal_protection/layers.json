@@ -12,8 +12,17 @@
                                 {"id":10, "parentLayerId":-1 },
                                 {"id":11, "parentLayerId":-1 },
                                 {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 },
-                                {"id":16, "parentLayerId":-1 }
+                                {"id":14, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Natural_Coastal_Protection", "type":"dynamic", "displayName":"Natural Coastal Protection - Plugin", "description":"","showLayers": [
+                                {"id":0, "parentLayerId":-1 }
                             ]
                         }   
                     ]
