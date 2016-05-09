@@ -45,7 +45,7 @@
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "cr_postgis.sde.carib_restoration_explorer",
+			"dataset": "sde.carib_restoration_explorer",
 			"reqFields": ["objectid", "shape"],
 			"defaultSymbol": { "type": "esriSFS",
 							 "style": "esriSFSSolid",
