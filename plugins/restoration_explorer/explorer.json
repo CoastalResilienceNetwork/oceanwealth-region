@@ -33,7 +33,7 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "cv_hapexp", 
+							"index": "cv_habexp", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
