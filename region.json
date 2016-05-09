@@ -1,13 +1,12 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Mapping Ocean Wealth", "url": "http://oceanwealth.org/" },
-    "titleDetail": { "text": "Global and Regional Ecosystem Services", "url": "http://oceanwealth.org/our-work/project-areas" },
+    "titleMain": { "text": "Atlas of Ocean Wealth", "url": "http://dev.maps.oceanwealth.org/" },
+    "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "http://oceanwealth.org/" },
 	"headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
@@ -109,12 +108,25 @@
             "id": "get-started",
             "title": "Getting Started",
             "description": "Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making.",
-            "showSubRegions": true,
+            "showSubRegions": false,
             "showByDefault": true,
             "categories": [
               {
+                "name": "Geographies",
+                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
+                "issues": [
+                    {
+                      "name": "Explore the map",
+                      "description": "",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjc0ODQ3My4zMjU1MTE0NDbEmnnFgcWDNjcyMzYxNi41NMWjMjk5xYvEv8SpeMSIxYXFh8WJxYvFjcWPxZHFk8WVxZfFq8SINzYzOTIwxaE4McWHxbs5NjjEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMWtMDIxMDDEmmzGimVzdFfGmMaaOjM4NTd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGsHBhbmXEq8aVx4THhk51bWLGkceBxoh0xqNPZlBsdWfFgsSixpXEmMazxrVlZMeXx5nFgsSIbnVsbMSaxIzHpG7HnHvGr8av",
+                      "faIcon": "fa fa-globe",
+                      "faSize": 32
+                    }
+                ]
+            } ,
+            {
                 "name": "One-click Interactive Map",
-                "description": "Customized maps scenarios for adaptation, restoration and conservation planning.",
+                "description": "Customized maps scenarios for exploring ocean ecosystem services globally and regionally.",
                 "issues": [
                     {
                       "name": "Coral Tourism Value: Caribbean",
