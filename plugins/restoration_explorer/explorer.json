@@ -9,20 +9,7 @@
 	"infoGraphic": "RestorationExplorer_c.jpg",
     "regions": [
         {
-            "items": [	{
-							"text": "<b>Ecological Variables (weight):</b>",
-							"type": "text"
-						},
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "depth", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Depth Score", 
-							"type": "layer"
-						}, 
+            "items": [	 
 						{
 							"default": 5, 
 							"group": "all", 
@@ -52,47 +39,13 @@
 							"step": 1, 
 							"text": "Spat Settlement Score", 
 							"type": "layer"
-						}, 
-						{
-							"text": "<b>Socioeconomic Variables (weight):</b>",
-							"type": "text"
-						},
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "natural_resource_job_dependence", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Job Dependence Score", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "project_permit_feasibility", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Project Permit Feasibility Score", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "shoreline_erosion", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Shoreline Erosion Score", 
-							"type": "layer"
 						}
 			],
             "name": "Caribbean",
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "sde.gulfmex_AL_RestorationExplorer_Data",
+			"dataset": "cr_postgis.sde.carib_restoration_explorer",
 			"reqFields": ["objectid", "shape"],
 			"defaultSymbol": { "type": "esriSFS",
 							 "style": "esriSFSSolid",
