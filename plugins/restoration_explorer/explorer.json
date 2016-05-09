@@ -13,31 +13,31 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "salinity", 
+							"index": "con_larvae", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
-							"text": "Salinity Score", 
+							"text": "Contribution of larvae to reef network", 
 							"type": "layer"
 						}, 
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "historic_reefs", 
+							"index": "con_selfr", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
-							"text": "Historic Oyster Reef Score", 
+							"text": "Ability to self recruit", 
 							"type": "layer"
 						}, 
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "spat_settlement", 
+							"index": "cv_hapexp", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
-							"text": "Spat Settlement Score", 
+							"text": "Marxan Connectivity Results", 
 							"type": "layer"
 						}
 			],
