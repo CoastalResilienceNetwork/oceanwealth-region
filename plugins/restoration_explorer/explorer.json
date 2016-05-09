@@ -42,7 +42,7 @@
 						}
 			],
             "name": "Caribbean",
-            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.carib_restoration_explorer",
