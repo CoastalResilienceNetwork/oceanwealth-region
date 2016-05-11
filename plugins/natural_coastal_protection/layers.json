@@ -1,28 +1,6 @@
 [
     {
         "agsSource": {
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "folderTitle": "Natural Coastal Protection",
-            "folders": [
-                {
-                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
-                    "name": "",
-                    "services": [
-                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Natural Coastal Protection - Plugin", "description":"","showLayers": [
-                                {"id":10, "parentLayerId":-1 },
-                                {"id":11, "parentLayerId":-1 },
-                                {"id":13, "parentLayerId":-1 },
-                                {"id":14, "parentLayerId":-1 },
-                                {"id":16, "parentLayerId":-1 }
-                            ]
-                        }   
-                    ]
-                }
-            ]
-        }
-    },
-    {
-        "agsSource": {
             "url": "http://services.coastalresilience.org/arcgis/rest/services",
             "folderTitle": "Global Coral Protection Index",
             "folders": [
