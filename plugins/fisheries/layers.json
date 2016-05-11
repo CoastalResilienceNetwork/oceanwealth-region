@@ -8,8 +8,39 @@
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
                     "name": "",
                     "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Coral Reefs", "description":"","showLayers": [
+                                {"id":32, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Mangroves", "description":"","showLayers": [
                                 {"id":5, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Oyster Reefs", "description":"","showLayers": [
+                                {"id":25, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Lesser Sunda Modeled Fish Biomass", "description":"","showLayers": [
+                                {"id":27, "parentLayerId":-1 },
+                                {"id":28, "parentLayerId":-1 }
                             ]
                         }   
                     ]

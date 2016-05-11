@@ -1,8 +1,8 @@
-[
+[ 
     {
         "agsSource": {
             "url": "http://services.coastalresilience.org/arcgis/rest/services",
-            "folderTitle": "Global Habitat Presence",
+            "folderTitle": "Global Habitat Data",
             "folders": [
                 {
                     "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
@@ -11,6 +11,47 @@
                         { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Habitat Presence", "description":"","showLayers": [
                                 {"id":10, "parentLayerId":-1 },
                                 {"id":11, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Seagrass Diversity", "description":"","showLayers": [
+                                {"id":18, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Coral Diversity", "description":"","showLayers": [
+                                {"id":19, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Gulf of California Mangrove Habitat Value", "description":"","showLayers": [
+                                {"id":20, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
+                },
+                {
+                    "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"USA-Water Filtration by Oyster Reefs", "description":"","showLayers": [
+                                {"id":30, "parentLayerId":-1 },
+                                {"id":31, "parentLayerId":-1 }
                             ]
                         }   
                     ]

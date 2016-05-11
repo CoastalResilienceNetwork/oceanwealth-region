@@ -13,6 +13,18 @@
                             ]
                         }   
                     ]
+                },
+                {
+					"url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+						{ "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Global Carbon Sequestration by Seagrass and Salt Marsh", "description":"","showLayers": [
+                                {"id":22, "parentLayerId":-1 },
+                                {"id":23, "parentLayerId":-1 },
+                                {"id":24, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
                 }
             ]
         }
