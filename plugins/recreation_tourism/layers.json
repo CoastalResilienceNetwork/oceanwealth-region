@@ -13,6 +13,16 @@
                             ]
                         }   
                     ]
+                },
+                {
+                    "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+                    "name": "",
+                    "services": [
+                        { "name": "Ocean_Wealth", "type":"dynamic", "displayName":"Gulf of California Economic Impact from Tourism", "description":"","showLayers": [
+                                {"id":16, "parentLayerId":-1 }
+                            ]
+                        }   
+                    ]
                 }
             ]
         }
