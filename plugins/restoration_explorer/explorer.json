@@ -13,7 +13,7 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "con_larvae", 
+							"index": "larvae", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
@@ -23,7 +23,7 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "con_selfr", 
+							"index": "self", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
@@ -33,11 +33,21 @@
 						{
 							"default": 5, 
 							"group": "all", 
-							"index": "cv_habexp", 
+							"index": "marxan", 
 							"max": 10, 
 							"min": 0, 
 							"step": 1, 
 							"text": "Marxan Connectivity Results", 
+							"type": "layer"
+						}, 
+						{
+							"default": 5, 
+							"group": "all", 
+							"index": "recreation", 
+							"max": 10, 
+							"min": 0, 
+							"step": 1, 
+							"text": "Recreation and Tourism", 
 							"type": "layer"
 						}
 			],
