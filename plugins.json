@@ -4,9 +4,13 @@
             "repo": "explorer",
             "name": "restoration_explorer"
         },
-    	{
-      		"repo": "natural-coastal-protection",
-      		"name": "natural_coastal_protection"
+        {
+            "repo": "natural-coastal-protection",
+            "name": "natural_coastal_protection"
+        },
+        {
+            "repo": "map-tree",
+            "name": "map-tree"
         }
     ]
 }

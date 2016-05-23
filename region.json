@@ -28,10 +28,10 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
+        "map-tree",
+        "natural_coastal_protection",
         "blue_carbon",
         "fisheries",
-        "natural_coastal_protection",
         "recreation_tourism",
 		"zoom_to",
         "measure",
