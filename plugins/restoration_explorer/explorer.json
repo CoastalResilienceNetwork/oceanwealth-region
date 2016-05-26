@@ -2,77 +2,273 @@
     "name": "Restoration Explorer",
     "text": "To begin, select a region to view.",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
-	"mainToggle": {"index": 0, "text": "Toggle Restoration Score on or off"},
+    "mainToggle": {"text": "Main Layer Transparency"},
     "betweenGroups": "*",
     "averageGroups": true,
     "pluginHeight": 510,
+	"pluginWidth": 310,
 	"infoGraphic": "RestorationExplorer_c.jpg",
     "regions": [
         {
-            "items": [	 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "larve", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Contribution of larvae to reef network", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "self", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Ability to self recruit", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "marxan", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Marxan Connectivity Results", 
-							"type": "layer"
-						}, 
-						{
-							"default": 5, 
-							"group": "all", 
-							"index": "recreation", 
-							"max": 10, 
-							"min": 0, 
-							"step": 1, 
-							"text": "Recreation and Tourism", 
-							"type": "layer"
-						}
-			],
-            "name": "Caribbean",
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+		  "methods": "methods/test.pdf",
+		  "tabtype": "radio",
+		  "tabs": [
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability– coral reef only",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "larve", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Contribution of larvae to reef network", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "self", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Ability to self recruit", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "marxan", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Connectivity", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "recreation", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}, 		
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability – coral,Mangroves",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "larve", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Contribution of larvae to reef network", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "self", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Ability to self recruits", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "marxan", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Connectivity", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "recreation", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}
+		  ],
+	        "name": "Caribbean",
+			"sliderLabels" : ["None","Low","Med","High","V.High"],
+			"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.carib_restoration_explorer",
 			"reqFields": ["objectid", "shape"],
-			"defaultSymbol": { "type": "esriSFS",
-							 "style": "esriSFSSolid",
-							 "color": [150,150,150,255],
-							 "size": 8,
-							 "angle": 0,
-							 "xoffset": 0,
-							 "yoffset": 0,
-							 "outline": 
-							  {
-							  "type": "esriSLS",
-							  "style": "esriSLSSolid",
-							  "color": [150,150,150,0],
-							   "width": 1
-							  }
+			"methods": "methods/Alabama_Dashboard.pdf",
+            "sliderLabels" : ["None","Low","Med","High","V.High"],
+			"defaultSymbol": {
+								"color": [
+									153,
+									153,
+									153,
+									255
+								],
+								"outline": {
+									"color": [
+										0,
+										0,
+										0,
+										255
+									],
+									"width": 0,
+									"type": "esriSLS",
+									"style": "esriSLSSolid"
+								},
+								"type": "esriSFS",
+								"style": "esriSFSSolid"
 							},
 			"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]]
+			
+        },        
+		{
+		  "methods": "methods/test.pdf",
+		  "tabtype": "radio",
+		  "tabs": [
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability– coral reef only",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_cv", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Vulnerability - Role of Habitat to Reduce Exposure", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_cor_bchero", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Coral Only Beach Erosion", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_cor_wavred", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Coral Only Wave Energy Reduction", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}, 		
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability – coral,Mangroves",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_cv", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Vulnerability - Role of Habitat to Reduce Exposure", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_ah_bchero", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - All Habitats Beach Erosion", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "avg_ah_wave", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - All Habitats Wave Energy Reduction", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}
+		  ],
+	        "name": "Cayman",
+			"sliderLabels" : ["None","Low","Med","High","V.High"],
+			"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"workspaceId": "postgis",
+			"geometryType": "polygon",
+			"dataset": "sde.cayman_explorer",
+			"reqFields": ["id", "shape"],
+			"methods": "methods/Alabama_Dashboard.pdf",
+            "sliderLabels" : ["None","Low","Med","High","V.High"],
+			"defaultSymbol": {
+								"color": [
+									153,
+									153,
+									153,
+									255
+								],
+								"outline": {
+									"color": [
+										0,
+										0,
+										0,
+										255
+									],
+									"width": 0,
+									"type": "esriSLS",
+									"style": "esriSLSSolid"
+								},
+								"type": "esriSFS",
+								"style": "esriSFSSolid"
+							},
+			"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]]
+			
         }
     ]
 }
+	
+	
+	
