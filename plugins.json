@@ -1,8 +1,8 @@
 {
     "plugins": [
         {
-            "repo": "restoration_explorer",
-            "name": "multiexplorer"
+            "repo": "multiexplorer",
+            "name": "restoration_explorer"
         },
         {
             "repo": "natural-coastal-protection",
