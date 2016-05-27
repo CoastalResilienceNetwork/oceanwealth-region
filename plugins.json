@@ -10,7 +10,19 @@
         },
         {
             "repo": "map-tree",
-            "name": "map-tree"
+            "name": "layer_selector"
+                    },
+        {
+            "repo": "map-tree",
+            "name": "blue_carbon"
+                    },
+        {
+            "repo": "map-tree",
+            "name": "fisheries"
+                    },
+        {
+            "repo": "map-tree",
+            "name": "recreation_tourism"
         }
     ]
 }
