@@ -1,6 +1,40 @@
 [
     {
-        "displayName": "Global Data",
+        "displayName": "Regional Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Gulf of California Mangrove Habitat Dollar Value (US)",
+                "displayName": "Gulf of California Mangrove Habitat Dollar Value (US)",
+                "opacity": 0.5,
+                    "reportDbLayerName": "MOW_GoC_MangroveHabitatValue",
+                    "reports": [
+                    {
+                        "display": "Area of Interest",
+                        "units": "U.S. Dollars",
+                        "field": "Grand_Sum"
+                    }
+                ]
+            },
+            {
+                "name": "USA Water Filtration by Oyster Reefs",
+                "displayName": "USA Water Filtration by Oyster Reefs",
+                "includeAllLayers": true,
+                "opacity": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+                "displayName": "Global Data",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -17,7 +51,7 @@
                     "reportDbLayerName": "global_coral_reefs",
                     "reports": [
                     {
-                        "display": "Coral Reef Areas",
+                        "display": "Area of Interest",
                         "units": "sq km",
                         "field": ""
                     }
@@ -30,7 +64,7 @@
                     "reportDbLayerName": "global_mangroves",
                     "reports": [
                     {
-                        "display": "Mangrove Areas",
+                        "display": "Area of Interest",
                         "units": "sq km",
                         "field": ""
                     }
@@ -85,12 +119,6 @@
                     "name": "wdpa"
                 },
                 "displayName": "WDPA"
-            },
-            {
-                "server": {
-                    "name": "wdpa_marine"
-                },
-                "displayName": "WDPA Marine"
             }
         ]
     }
