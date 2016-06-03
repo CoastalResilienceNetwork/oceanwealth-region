@@ -11,8 +11,9 @@
         },
         "includeLayers": [
             {
-                "name": "Modeled Value of Mangrove Above Ground Biomass",
-                "displayName": "Mangrove Above-Ground Biomass",
+                "name": "Carbon",
+                "displayName": "Blue Carbon",
+                "includeAllLayers": true,
                 "opacity": 0.5,
                     "reportDbLayerName": "MOW_Global_Mangrove_agb",
                     "reports": [
