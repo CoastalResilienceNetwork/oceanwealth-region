@@ -11,18 +11,10 @@
         },
         "includeLayers": [
             {
-                "name": "Carbon",
+                "name": "Above Ground Biomass",
                 "displayName": "Above-Ground Biomass",
                 "includeAllLayers": true,
-                "opacity": 0.5,
-                    "reportDbLayerName": "MOW_Global_Mangrove_agb",
-                    "reports": [
-                    {
-                        "display": "Area of Interest",
-                        "units": "sq km",
-                        "field": "agb_decile"
-                    }
-                ]
+                "opacity": 0.5
             },
             {
                 "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
