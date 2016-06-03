@@ -13,7 +13,6 @@
             {
                 "name": "Modeled Value of Mangrove Above Ground Biomass",
                 "displayName": "Mangrove Above-Ground Biomass",
-                "includeAllLayers": true,
                 "opacity": 0.5,
                     "reportDbLayerName": "MOW_Global_Mangrove_agb",
                     "reports": [
