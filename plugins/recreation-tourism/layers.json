@@ -11,7 +11,7 @@
         },
         "includeLayers": [
             {
-                "name": "Gulf of California Economic Impact of Tourism",
+                "name": "Gulf of California Economic Impact From Tourism",
                 "displayName": "Gulf of California Tourism",
                 "opacity": 0.5
             }

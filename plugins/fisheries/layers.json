@@ -35,7 +35,7 @@
         },
         "includeLayers": [
             {
-                "name": "Global Fish Biomass on Coral Reefs",
+                "name": "Global Fish Biomass On Coral Reefs",
                 "displayName": "Fish Biomass on Coral Reefs",
                 "opacity": 0.5,
                     "reportDbLayerName": "MOW_Global_Reef_FishBiomass",
@@ -46,12 +46,6 @@
                         "field": ""
                     }
                 ]
-            },
-            {
-                "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
-                "displayName": "Carbon Sequestration",
-                "includeAllLayers": true,
-                "opacity": 0.5
             }
         ]
     }
