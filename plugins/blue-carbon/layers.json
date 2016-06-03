@@ -1,0 +1,34 @@
+[
+    {
+        "displayName": "Global Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Modeled Value of Mangrove Above Ground Biomass",
+                "displayName": "Mangrove Above-Ground Biomass",
+                "opacity": 0.5,
+                    "reportDbLayerName": "MOW_Global_Mangrove_agb",
+                    "reports": [
+                    {
+                        "display": "Area of Interest",
+                        "units": "sq km",
+                        "field": "agb_decile"
+                    }
+                ]
+            },
+            {
+                "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
+                "displayName": "Carbon Sequestration",
+                "includeAllLayers": true,
+                "opacity": 0.5
+            }
+        ]
+    }
+]

@@ -9,24 +9,24 @@
             "name": "natural_coastal_protection"
         },
         {
-      "repo": "regional-planning",
-      "name": "regional-planning"
+            "repo": "regional-planning",
+            "name": "regional-planning"
+        },
+        {
+            "repo": "regional-planning",
+            "name": "blue-carbon"
+        },
+        {
+            "repo": "regional-planning",
+            "name": "fisheries"
+        },
+        {
+            "repo": "regional-planning",
+            "name": "recreation-tourism"
         },
         {
             "repo": "map-tree",
             "name": "layer_selector"
-                    },
-        {
-            "repo": "map-tree",
-            "name": "blue_carbon"
-                    },
-        {
-            "repo": "map-tree",
-            "name": "fisheries"
-                    },
-        {
-            "repo": "map-tree",
-            "name": "recreation_tourism"
         }
     ]
 }
