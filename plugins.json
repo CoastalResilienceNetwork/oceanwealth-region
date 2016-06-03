@@ -9,6 +9,10 @@
             "name": "natural_coastal_protection"
         },
         {
+      "repo": "regional-planning",
+      "name": "regional-planning"
+        },
+        {
             "repo": "map-tree",
             "name": "layer_selector"
                     },
