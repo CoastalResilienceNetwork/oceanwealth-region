@@ -29,7 +29,6 @@
     ],
     "pluginOrder": [
         "regional-planning",
-        "natural_coastal_protection",
         "blue-carbon",
         "fisheries",
         "recreation-tourism",

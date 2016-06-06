@@ -1,10 +1,6 @@
 {
     "plugins": [
         {
-            "repo": "natural-coastal-protection",
-            "name": "natural_coastal_protection"
-        },
-        {
             "repo": "regional-planning",
             "name": "regional-planning"
         },
