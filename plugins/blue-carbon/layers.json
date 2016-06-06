@@ -1,0 +1,27 @@
+[
+    {
+        "displayName": "Global Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Above Ground Biomass",
+                "displayName": "Above-Ground Biomass",
+                "includeAllLayers": true,
+                "opacity": 0.5
+            },
+            {
+                "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
+                "displayName": "Carbon Sequestration",
+                "includeAllLayers": true,
+                "opacity": 0.5
+            }
+        ]
+    }
+]

@@ -1,13 +1,12 @@
 {
     "googleAnalyticsPropertyId": "7401895-14",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Mapping Ocean Wealth", "url": "http://oceanwealth.org/" },
-    "titleDetail": { "text": "Global and Regional Ecosystem Services", "url": "http://oceanwealth.org/our-work/project-areas" },
+    "titleMain": { "text": "Atlas of Ocean Wealth", "url": "http://maps.oceanwealth.org/" },
+    "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "http://oceanwealth.org/" },
 	"headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "initialExtent": [
@@ -29,11 +28,12 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
-        "blue_carbon",
-        "fisheries",
+        "regional-planning",
         "natural_coastal_protection",
-        "recreation_tourism",
+        "blue-carbon",
+        "fisheries",
+        "recreation-tourism",
+        "layer_selector",
 		"zoom_to",
         "measure",
         "legend_display",
@@ -42,13 +42,14 @@
     
     ],
     "print": {
-        "printServerUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth/PrintingOW/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A OW"  
+        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth/PrintingOW/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A OW"  
     },
     "colors": {
        "primary": "#26648E",
        "secondary": "#26648E"
     },
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "identifyEnabled": true,
     "subregions": {
         "hideAtZoomLevel": 4,
         "color": "#00C5CD",
@@ -107,19 +108,32 @@
         {
             "id": "get-started",
             "title": "Getting Started",
-            "description": "Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making.",
-            "showSubRegions": true,
+            "description": "<center>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making.</center><br><center><img src='img/tnc1.png' hspace=20>&nbsp<img src='img/boston_univ_rgb.jpg' hspace=20>&nbsp<img src='img/NOAA_logo_color_broadcast2.jpg' hspace=20>&nbsp<img src='img/CC-PLC-color2.jpg' hspace=20>&nbsp<img src='img/FERU-logo.jpg' hspace=20>&nbsp<img src='img/UBO-Hor.png' hspace=20>&nbsp<img src='img/wcs-logo.jpg' hspace=20>&nbsp<img src='img/WRI.png' hspace=20>&nbsp<img src='img/BS2.jpg' hspace=20></center>",
+            "showSubRegions": false,
             "showByDefault": true,
             "categories": [
               {
+                "name": "Geographies",
+                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
+                "issues": [
+                    {
+                      "name": "Explore the map",
+                      "description": "",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjc0ODQ3My4zMjU1MTE0NDbEmnnFgcWDNjcyMzYxNi41NMWjMjk5xYvEv8SpeMSIxYXFh8WJxYvFjcWPxZHFk8WVxZfFq8SINzYzOTIwxaE4McWHxbs5NjjEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMWtMDIxMDDEmmzGimVzdFfGmMaaOjM4NTd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGsHBhbmXEq8aVx4THhk51bWLGkceBxoh0xqNPZlBsdWfFgsSixpXEmMazxrVlZMeXx5nFgsSIbnVsbMSaxIzHpG7HnHvGr8av",
+                      "faIcon": "fa fa-globe",
+                      "faSize": 32
+                    }
+                ]
+            } ,
+            {
                 "name": "One-click Interactive Map",
-                "description": "Customized maps scenarios for adaptation, restoration and conservation planning.",
+                "description": "Customized maps scenarios for exploring ocean ecosystem services globally and regionally.",
                 "issues": [
                     {
                       "name": "Coral Tourism Value: Caribbean",
                       "description": "Example one-click map",
                       "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMDYzM8WGNC4xMTg4MDIwMzfEmnnFgcSTxY02OTk3Mi41ODQ4MsWNMzk1xL/EqXjEiC02MTQ0NjgxLsW0NzjFncWzMcWWxavEiMWINzYyNTAuOcWbMjQzxY8wNMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjFhcWlMDDEpyJfcGFydMSiOlvErcSvxLHEs8S1xLfEucS7xrPFqsWCxa3FhcWHxYk2xYvFjcaMxZLFlMW9xrs6xZrFnMWexaDFosWkxabFqMWqYcWsOsWuxbDFssW0xbYxxbjFusW0xb3HksW/xZTGgsaExobGiMaKxozGjsSBxqrGksaUxpbGmMSGY8abxIDGnsagxqLFkcWFxqbGp2ZyYW1lSWTGrlswXX3IhMaPZWxlY8SwZEJhxJjEqXBJbmTErsSIxqbEmsaqbmXEq8acyJplTnVtYsaYyJfGj3TGkWVPZlBsdWfFgsauxIrIiMiKyIzIrcivx4cixIzIuG5zL8SExJHGkWlvbl90b3VyaXNtIsSaYciLaXZlU3VixITIsMmExLPHtDoiY8araWLIpGHEh8SaZMmLxIxhecS5Q8mgyaJlyaTJjiLIlcioacSXxLlNT1cgyZjJg8mlxIFoxKDGm1tbLTg2xYwzxYcxMzXHmsWbxY8yLMWwLsWbxZQ4yo05NMWoNDcxXSzKhcqHyonKi8qNyo85ypEsxonKlcaBN8WGyq7KjcqdN8WeyqDKhceAx4wwNzTGg8aCNDE5xoPKqsWLNsqtyq/FkzXKssq0yqHFrsWLxaHKucq7Ncq9yr/LgcqUypbFuMqZypvLiMqeyrXKhsqIyozKpcqOxoHKqMWkypPLgznKl8uYypzLm8qgImF2Ycm2YWLIici3yLDIvcSIWyJsyarGmF/EmMiJyItvcsmyy7N1ZV/Jn3JiyZrEmmbJi2jGmGllxKLEmm7GkcmJxJbMiG/Ij8iobMapcm/EsMmRzIwiyYDEhMmCyYTJhsmIyYrJjCLLrMmIdMSNyJtDb2zMgsS5I8alxKvMlW9GybZsxIh0csyGxqfIu8u2yLLIusiuzYfIv8iKzKfGksypyYfJicmLyY3GnMygzKEvxpXJgc2PbiDJpGQgVMyrzZMvT8ewyaQgV8mwbHRoMjfEs2/GqmPEjsmrOsaFxZXJnsyQY2tlxqE6zYLMhsSadsmLyaHIiUzLvHLHv8iBza7IhiLJk3Jzyb7EucW1MSJ9zpfJj8mRyZPJlcmXZcmZxJPEgMmcyZ7Jrsmjyb/Jp8SLy7vNtSLJrcmKya/JscmmZcm1ybfJncm5ybvJvcykc8qBxrbGr8qiy57KijPKjMuhypDLpMuVy6fLlzXKmsuqyp/Li8qjy5/PgMqmy6LKqcqry4TLhMuGyrHKs8uKyrbLjcWQyrrKvMaJy5PFqc+Ty4XPlc+XyrMyy5zKt8uOz53Lkc+fy4DFqc+Fy6jPiMuZyp3Pi869yqTPj8+Cy6PKks+wz4fPicuayp/LrMuuy7DLu8uzZcu1yLHLuMu6zojLvsi0zIHMg8SazIXMh8yJzIvJv8yOzrnMkcyTybLMlnTMmMyeY8ybc8ydzJ/Moci1zpLEmsymybDNm8yqzZLMrcyvdcyxxYJlzLTMtsyDyZ3Mucal0JrMvcy/zYHNg8Smzpc=",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjA3MDkzNS41MDY3OTE4MjTEmnnFgcWDMjg1Nzg0LjI3NTE0xYk5xagzxL/EqXjEiC01Njk2xbE4LsWfxaYzNjEwMcWXxazEiDMzMDQ5MjHFjTY1NcWUNMWcxJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiMW7xoYwMMSabMaRZXN0V8afxqE6M8WcN8SnImNhY2jGm8SAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eGxavFgsWuxYXFh8WJxYvFjcWPxZHFk8WVxb7HjjotxZvFncWfxaHFo8WlxafFqcWrYcWtx5vFsMWyxbTFtjTFuMW6xbzFvsemxoDGgsaExobGiMaKxozGjsSBxr3GksaUxpbGmMSGY8a6xp3GrsaiMMakxqYixqjEsMarxq3GoMaAxrJ9xrRmcmFtZUlkx4FbMF19yJ7GtMSYbGVjxLBkQmHEmMSpcEluZMSuxIgwxrTGvW5lxKvGnMi0ZU51bWLGmMixxo90xqlPZlBsdWfFgseBxIplyKPIpWVkyYbJiMeaIsSMyZNucy/EhMSRxpFpb25fdG91cmlzbSLEmsa3xpJ2ZVN1YsSEyYnJn8SIbnVsbMSayZbJicmYxLPJu8mKyZrIpMSEyZ3Jn8mhyaPJpcmnxLNyb290L8aVyZzGksmfIGHIriBUyofJpm0vT8iCypUgV2XElnRoOcSzb8a9Y8SOecixLjfEmsa4yKRryZDEiHRydcSZInbJpmliyKNMYXnGmMiZyJs5yJ7EmsmtcnPJnsSTIsaHMSLIksa0yatpya3Jr8mxZcmzxJPJtsm4yJI=",
                       "faIcon": "fa fa-leaf",
                       "faSize": 32
                     }

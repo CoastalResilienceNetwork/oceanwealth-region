@@ -1,0 +1,8 @@
+{
+    "height": 400,
+    "width": 400,
+    "resizable": false,
+    "hasCustomPrint": true,
+    "name": "Blue Carbon",
+    "infoGraphic": "<div><img src='plugins/blue-carbon/BlueCarbon_InfoGraph.png'/></div>"
+}
