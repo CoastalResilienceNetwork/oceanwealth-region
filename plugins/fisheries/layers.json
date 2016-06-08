@@ -35,6 +35,11 @@
         },
         "includeLayers": [
             {
+                "name": "Modeled Value of Mangrove Fisheries",
+                "displayName": "Mangrove Fisheries",
+                "opacity": 0.5
+            },
+            {
                 "name": "Global Fish Biomass On Coral Reefs",
                 "displayName": "Fish Biomass on Coral Reefs",
                 "opacity": 0.5,
