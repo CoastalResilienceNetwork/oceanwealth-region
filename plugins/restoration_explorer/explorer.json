@@ -1,0 +1,398 @@
+{
+    "name": "Coral Reef Restoration Explorer",
+    "text": "To begin, select a region to view.",
+    "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
+    "mainToggle": {"text": "Main Layer Transparency"},
+    "betweenGroups": "*",
+    "averageGroups": true,
+    "pluginHeight": 520,
+	"pluginWidth": 330,
+	"infoGraphic": "<div style='padding:5px;width:600px;text-align: justify'><div>The coral reef restoration explorer allows multi-sector stakeholders to examine both ecological and socioeconomic factors for prioritizing restoration efforts. This tool provides a regional platform to consider important coral reef larvae connectivity indicators (such as the amount of estimated larvae contributed and the ability to self-recruit) as well as integrating high priority nodes that are important for maintaining connectivity health. In addition, users can explore two ecosystem service models that reefs provide:</div><br><div style='margin-left:15px'><div>1) <b>Coastal vulnerability</b> - highlights the protective services offered by coastal habitats to coastal populations. This information can be used to identify regions of greater risk to coastal hazards (such as erosion and flooding), which can in turn better inform development strategies and permitting.</div><div>2) <b>Coastal protection</b> – quantifies the protective benefits that natural habitats provide against erosion and inundation (flooding) in nearshore environments. The model uses a cross-shore profile to compute summaries of nearshore wave information, and outputs the total water level at the shore, and the amount of shoreline erosion at your site.</div><div>3) <b>Recreation and tourism</b> – predicts tourist visitation and recreation rates, based photo-user-days from geotagged photos in the flicker database, highlighting patterns of tourism and recreational use around coral reefs.</div></div><center><img width='250' src='plugins/restoration_explorer/coral.png'></center><br><div>Coral reefs require a number of ecological factors to ensure restoration success. This tool can be used to align these ecological factors with where coral reefs provide benefits to humans. Users can explore both the ecological and human benefits to evaluate and prioritize potential restoration areas. The darker blue areas indicate a higher likelihood of success for restoration activities based on user-defined settings.</div></div>",
+    "regions": [
+        {
+		  "methods": "methods/test.pdf",
+		  "tabtype": "radio",
+		  "tabs": [
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability– coral reef only",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_larvae_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Modeled Larvae Contributed to Reef Unit Network", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_selfr_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Modeled Self Recruitment by Reef Unit", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_marxan_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Marxan Connectivity Results", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cv_corexp_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coral Reef Role in Reducing Coastal Exposure", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cp_wavhred_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Habitat Role in Reducing Wave Height (%)", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cp_beaexpr_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Habitat Role in Reducing Beach Erosion (m)", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},  
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "rec_pudcou_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}, 		
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Reduces Coastal Vulnerability – coral,Mangroves",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_larvae_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Contribution of larvae to reef network", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_selfr_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Ability to self recruits", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "con_marxan_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Connectivity", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cv_habexp_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Habitat Role in Reducing Coastal Exposure", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cp_wavhred_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Habitat Role in Reducing Wave Height (%)", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},{
+								"default": 5, 
+								"group": "all", 
+								"index": "cp_beaexpr_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Habitat Role in Reducing Beach Erosion (m)", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},  
+							{
+								"default": 5, 
+								"group": "all", 
+								"index": "rec_pudcou_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							}
+				]				
+			}
+		  ],
+	        "name": "Caribbean",
+			"sliderLabels" : ["None","Low","Med","High","V.High"],
+			"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"workspaceId": "postgis",
+			"geometryType": "polygon",
+			"dataset": "sde.carib_resotoration_explorer_n",
+			"reqFields": ["objectid", "shape"],
+			"methods": "methods/Alabama_Dashboard.pdf",
+            "sliderLabels" : ["None","Low","Med","High","V.High"],
+			"defaultSymbol": {
+								"color": [
+									153,
+									153,
+									153,
+									255
+								],
+								"outline": {
+									"color": [
+										0,
+										0,
+										0,
+										255
+									],
+									"width": 0,
+									"type": "esriSLS",
+									"style": "esriSLSSolid"
+								},
+								"type": "esriSFS",
+								"style": "esriSFSSolid"
+							},
+			"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]]
+			
+        },        
+		{
+		  "tabtype": "radio",
+		  "tabs": [
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Coral Reef Only",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "habitat_ro_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Vulnerability - Reduction of Exposure", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Vulnerablility_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "waveh_red__n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Reduction of Wave Height", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "beacherosi_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Reduction of Beach Erosion", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "rec_pud_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism - Photo User Days", 
+								"help": "<a href='plugins/restoration_explorer/Recreationn_and_Tourism_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							},
+							{
+								"type": "hr",
+								"group": "1"
+							},
+							{
+								"text": "<b>Reference Maps:</b>",
+								"type": "text"
+							},
+							{
+								"text": "Benthic Habitats and Mangroves",
+								"type": "ancillary",
+								"default": 0,
+								"index": 0
+							},
+							{
+								"text": "Population",
+								"type": "ancillary",
+								"default": 0,
+								"index": 1,
+								"help": "<a href='plugins/restoration_explorer/Cayman_Population_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>"
+							}
+				]				
+			}, 		
+			{
+				"sliderLabels" : ["","Low","","","","Medium","","","","","High"],
+				"name": "Coral Reef, Seagrass, and Mangroves",
+				"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]],
+				"items": [	 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "habitat_ro_all_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Vulnerability - Reduction of Exposure", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Vulnerablility_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "waveh_red_all_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Reduction of Wave Height", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "beacherosi_all_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Coastal Protection - Reduction of Beach Erosion", 
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "rec_pud_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism - Photo User Days", 
+								"help": "<a href='plugins/restoration_explorer/Recreationn_and_Tourism_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"type": "layer"
+							},
+							{
+								"type": "hr",
+								"group": "1"
+							},
+							{
+								"text": "<b>Reference Maps:</b>",
+								"type": "text"
+							},
+							{
+								"text": "Benthic Habitats and Mangroves",
+								"type": "ancillary",
+								"default": 0,
+								"index": 0
+							},
+							{
+								"text": "Population",
+								"type": "ancillary",
+								"default": 0,
+								"help": "<a href='plugins/restoration_explorer/Cayman_Population_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
+								"index": 1
+							}
+				]				
+			}
+		  ],
+	        "name": "Cayman",
+			"ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth/MOW_Grand_Cayman_Ancillary/MapServer",
+			"sliderLabels" : ["None","Low","Med","High","V.High"],
+			"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"workspaceId": "postgis",
+			"geometryType": "polygon",
+			"dataset": "sde.cayman_wm",
+			"reqFields": ["objectid", "shape"],
+			"methods": "plugins/restoration_explorer/CaymanMethods.pdf",
+            "sliderLabels" : ["None","Low","Med","High","V.High"],
+			"defaultSymbol": {
+								"color": [
+									153,
+									153,
+									153,
+									255
+								],
+								"outline": {
+									"color": [
+										0,
+										0,
+										0,
+										255
+									],
+									"width": 0,
+									"type": "esriSLS",
+									"style": "esriSLSSolid"
+								},
+								"type": "esriSFS",
+								"style": "esriSFSSolid"
+							},
+			"colorRamp": [[255, 255, 129, 255], [131, 238, 13, 255], [76, 190, 110, 255], [39, 115, 163, 255], [13, 31, 133, 255]]
+			
+        }
+    ]
+}
+	
+	
+	
