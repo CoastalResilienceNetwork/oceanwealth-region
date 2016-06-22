@@ -178,7 +178,7 @@
 		  ],
 	        "name": "Caribbean",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
 			"dataset": "sde.carib_resotoration_explorer_n",
@@ -210,7 +210,6 @@
 			
         },        
 		{
-		  "methods": "methods/test.pdf",
 		  "tabtype": "radio",
 		  "tabs": [
 			{
@@ -220,36 +219,67 @@
 				"items": [	 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_cv_n", 
+								"group": "all1", 
+								"index": "habitat_ro_n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Vulnerability - Role of Habitat to Reduce Exposure", 
+								"text": "Coastal Vulnerability - Reduction of Exposure", 
 								"help": "this is where the help text goes",
 								"type": "layer"
 							}, 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_cor_bchero_n", 
+								"group": "all1", 
+								"index": "waveh_red__n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Protection - Coral Only Beach Erosion", 
+								"text": "Coastal Protection - Reduction of Wave Height", 
 								"help": "this is where the help text goes",
 								"type": "layer"
 							}, 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_cor_wavred_n", 
+								"group": "all1", 
+								"index": "beacherosi_n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Protection - Coral Only Wave Energy Reduction", 
+								"text": "Coastal Protection - Reduction of Beach Erosion", 
 								"help": "this is where the help text goes",
 								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "rec_pud_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism - Photo User Days", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},
+							{
+								"type": "hr",
+								"group": "1"
+							},
+							{
+								"text": "<b>Reference Maps:</b>",
+								"type": "text"
+							},
+							{
+								"text": "Benthic Habitats and Mangroves",
+								"type": "ancillary",
+								"default": 0,
+								"index": 0,
+							},
+							{
+								"text": "Population",
+								"type": "ancillary",
+								"default": 0,
+								"index": 1,
 							}
 				]				
 			}, 		
@@ -260,48 +290,80 @@
 				"items": [	 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_cv_n", 
+								"group": "all1", 
+								"index": "habitat_ro_all_n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Vulnerability - Role of Habitat to Reduce Exposure", 
+								"text": "Coastal Vulnerability - Reduction of Exposure", 
 								"help": "this is where the help text goes",
 								"type": "layer"
 							}, 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_ah_bchero_n", 
+								"group": "all1", 
+								"index": "waveh_red_all_n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Protection - All Habitats Beach Erosion", 
+								"text": "Coastal Protection - Reduction of Wave Height", 
 								"help": "this is where the help text goes",
 								"type": "layer"
 							}, 
 							{
 								"default": 5, 
-								"group": "all", 
-								"index": "avg_ah_wave_n", 
+								"group": "all1", 
+								"index": "beacherosi_all_n", 
 								"max": 10, 
 								"min": 0, 
 								"step": 1, 
-								"text": "Coastal Protection - All Habitats Wave Energy Reduction", 
+								"text": "Coastal Protection - Reduction of Beach Erosion", 
 								"help": "this is where the help text goes",
 								"type": "layer"
+							}, 
+							{
+								"default": 5, 
+								"group": "all1", 
+								"index": "rec_pud_n", 
+								"max": 10, 
+								"min": 0, 
+								"step": 1, 
+								"text": "Recreation and Tourism - Photo User Days", 
+								"help": "this is where the help text goes",
+								"type": "layer"
+							},
+							{
+								"type": "hr",
+								"group": "1"
+							},
+							{
+								"text": "<b>Reference Maps:</b>",
+								"type": "text"
+							},
+							{
+								"text": "Benthic Habitats and Mangroves",
+								"type": "ancillary",
+								"default": 0,
+								"index": 0,
+							},
+							{
+								"text": "Population",
+								"type": "ancillary",
+								"default": 0,
+								"index": 1,
 							}
 				]				
 			}
 		  ],
 	        "name": "Cayman",
+			"ancillaryUrl": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth/MOW_Grand_Cayman_Ancillary/MapServer",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
-			"url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+			"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "sde.cayman_restoration_explorer_n",
-			"reqFields": ["id", "shape"],
-			"methods": "methods/Alabama_Dashboard.pdf",
+			"dataset": "sde.cayman_wm",
+			"reqFields": ["objectid", "shape"],
+			"methods": "plugins/restoration_explorer/CaymanMethods.docx",
             "sliderLabels" : ["None","Low","Med","High","V.High"],
 			"defaultSymbol": {
 								"color": [
