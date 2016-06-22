@@ -247,7 +247,7 @@
 								"min": 0, 
 								"step": 1, 
 								"text": "Coastal Protection - Reduction of Beach Erosion", 
-								"help": "this is where the help text goes",
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
 								"type": "layer"
 							}, 
 							{
@@ -319,7 +319,7 @@
 								"min": 0, 
 								"step": 1, 
 								"text": "Coastal Protection - Reduction of Beach Erosion", 
-								"help": "this is where the help text goes",
+								"help": "<a href='plugins/restoration_explorer/Coastal_Protection_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
 								"type": "layer"
 							}, 
 							{
