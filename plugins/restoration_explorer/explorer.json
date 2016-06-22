@@ -329,7 +329,7 @@
 								"min": 0, 
 								"step": 1, 
 								"text": "Recreation and Tourism - Photo User Days", 
-								"help": "this is where the help text goes",
+								"help": "<a href='plugins/restoration_explorer/Recreationn_and_Tourism_Documentation.pdf' target=_blank>Click this link to get more information (a new window will open)</a>",
 								"type": "layer"
 							},
 							{
@@ -363,7 +363,7 @@
 			"geometryType": "polygon",
 			"dataset": "sde.cayman_wm",
 			"reqFields": ["objectid", "shape"],
-			"methods": "plugins/restoration_explorer/CaymanMethods.docx",
+			"methods": "plugins/restoration_explorer/CaymanMethods.pdf",
             "sliderLabels" : ["None","Low","Med","High","V.High"],
 			"defaultSymbol": {
 								"color": [
