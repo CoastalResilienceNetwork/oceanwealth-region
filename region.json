@@ -29,6 +29,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "natural_coastal_protection",
         "restoration_explorer",
         "blue-carbon",
         "fisheries",
