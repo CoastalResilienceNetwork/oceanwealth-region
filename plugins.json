@@ -4,7 +4,11 @@
             "repo": "multiexplorer",
             "name": "restoration_explorer"
         },
-		{
+        {
+            "repo": "natural-coastal-protection",
+            "name": "natural_coastal_protection"
+        },
+        {
             "repo": "regional-planning",
             "name": "regional-planning"
         },
@@ -19,6 +23,10 @@
         {
             "repo": "regional-planning",
             "name": "recreation-tourism"
+        },
+        {
+            "repo": "map-tree",
+            "name": "layer_selector"
         }
     ]
 }

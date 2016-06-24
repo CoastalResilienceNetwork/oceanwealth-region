@@ -30,6 +30,7 @@
     "pluginOrder": [
         "regional-planning",
         "restoration_explorer",
+        "natural_coastal_protection",
         "blue-carbon",
         "fisheries",
         "recreation-tourism",
