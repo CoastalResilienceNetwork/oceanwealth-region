@@ -1,5 +1,5 @@
 {
-    "name": "Restoration Explorer",
+    "name": "Coral Reef Restoration Explorer",
     "text": "To begin, select a region to view.",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
     "mainToggle": {"text": "Main Layer Transparency"},
