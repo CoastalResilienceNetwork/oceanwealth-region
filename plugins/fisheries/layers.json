@@ -24,31 +24,6 @@
         ]
     },
     {
-        "displayName": "Micronesia Coral Reef Fisheries",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "name": "Micronesia_Coral_Reef_Fisheries",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "oceanwealth.gdb" 
-        },
-        "includeLayers": [
-            {
-                "name": "Regional and Jurisdictional",
-                "displayName": "Micro Regions and Jurisdictions",
-                "includeAllLayers": true,
-                "opacity": 0.5
-            },
-            {
-                "name": "Sub-Jurisdictional",
-                "displayName": "Micro Sub-Jurisdictions",
-                "includeAllLayers": true,
-                "opacity": 0.5
-            }
-        ]
-    },
-    {
         "displayName": "Global Data",
         "server": {
             "type": "ags",
