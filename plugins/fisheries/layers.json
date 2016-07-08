@@ -21,7 +21,10 @@
                 "displayName": "USA Current Oyster Reef Biomass (Tonnes)",
                 "opacity": 0.5
             }
-        ],
+        ]
+    },
+    {
+        "displayName": "Micronesia Coral Reef Fisheries",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
