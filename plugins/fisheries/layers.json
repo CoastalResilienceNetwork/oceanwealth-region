@@ -35,8 +35,14 @@
         },
         "includeLayers": [
             {
-                "name": "Micronesia Coral Reef Fisheries",
-                "displayName": "Micronesia Coral Reef Fisheries",
+                "name": "Regional and Jurisdictional",
+                "displayName": "Micro Regions and Jurisdictions",
+                "includeAllLayers": true,
+                "opacity": 0.5
+            },
+            {
+                "name": "Sub-Jurisdictional",
+                "displayName": "Micro Sub-Jurisdictions",
                 "includeAllLayers": true,
                 "opacity": 0.5
             }
