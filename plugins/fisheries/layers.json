@@ -21,6 +21,22 @@
                 "displayName": "USA Current Oyster Reef Biomass (Tonnes)",
                 "opacity": 0.5
             }
+        ],
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Micronesia_Coral_Reef_Fisheries",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Micronesia Coral Reef Fisheries",
+                "displayName": "Micronesia Coral Reef Fisheries",
+                "includeAllLayers": true,
+                "opacity": 0.5
+            }
         ]
     },
     {
