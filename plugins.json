@@ -23,10 +23,6 @@
         {
             "repo": "regional-planning",
             "name": "recreation-tourism"
-        },
-        {
-            "repo": "map-tree",
-            "name": "layer_selector"
         }
     ]
 }
