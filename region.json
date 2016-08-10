@@ -29,9 +29,9 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "coral-reef-fisheries",
         "natural_coastal_protection",
         "blue-carbon",
-        "coral-reef-fisheries",
         "fisheries",
         "recreation-tourism",
 		    "zoom_to",
