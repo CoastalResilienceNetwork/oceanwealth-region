@@ -1,0 +1,11 @@
+{
+    "height": 600,
+    "width": 400,
+    "resizable": false,
+    "hasCustomPrint": true,
+    "name": "Coral Reef Fisheries",
+    "description": "",
+    "infoGraphic": "<div style='padding:5px;width:600px;text-align: justify'><div><img src='plugins/coral-reef-fisheries/fishproduction.jpg'/></div><div> Find your CRS representative<a target='_blank' href='http://crsresources.org/100-2/'>here.</a></div></div>"
+}
+
+}
