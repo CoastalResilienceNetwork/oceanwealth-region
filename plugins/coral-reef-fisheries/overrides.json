@@ -4,8 +4,6 @@
     "resizable": false,
     "hasCustomPrint": true,
     "name": "Coral Reef Fisheries",
-    "description": "",
-    "infoGraphic": "<img src='plugins/coral-reef-fisheries/fishproduction.jpg'/>"
+    "infoGraphic": "<div><img src='plugins/coral-reef-fisheries/fishproduction.jpg'/></div>"
 }
 
-}
