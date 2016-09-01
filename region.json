@@ -29,6 +29,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "coral-reef-fisheries",
         "restoration_explorer",
         "natural_coastal_protection",
         "blue-carbon",
