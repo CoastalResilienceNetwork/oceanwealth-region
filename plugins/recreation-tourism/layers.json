@@ -13,7 +13,7 @@
             {
                 "name": "Gulf of California Economic Impact From Tourism",
                 "displayName": "Gulf of California Tourism",
-                "opacity": 0.5
+                "opacity": 1
             }
         ]
     },
@@ -31,7 +31,7 @@
             {
                 "name": "Modeled Tourism Value of Coral Reefs",
                 "displayName": "Tourism Value of Coral Reefs",
-                "opacity": 0.5
+                "opacity": 1
             }
         ]
     }
