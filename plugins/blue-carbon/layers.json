@@ -14,13 +14,13 @@
                 "name": "Above Ground Biomass",
                 "displayName": "Above-Ground Biomass",
                 "includeAllLayers": true,
-                "opacity": 0.5
+                "opacity": 1
             },
             {
                 "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
                 "displayName": "Carbon Sequestration",
                 "includeAllLayers": true,
-                "opacity": 0.5
+                "opacity": 1
             }
         ]
     }

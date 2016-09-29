@@ -14,12 +14,12 @@
                 "name": "Lesser Sunda Ecoregion Modeled Fish Biomass",
                 "displayName": "Lesser Sunda Fish Biomass",
                 "includeAllLayers": true,
-                "opacity": 0.5
+                "opacity": 1
             },
             {
                 "name": "USA Current Biomass Production Due To Oyster Reefs (Tonnes)",
                 "displayName": "USA Current Oyster Reef Biomass (Tonnes)",
-                "opacity": 0.5
+                "opacity": 1
             }
         ]
     },
@@ -37,12 +37,12 @@
             {
                 "name": "Modeled Value of Mangrove Fisheries",
                 "displayName": "Mangrove Fisheries",
-                "opacity": 0.5
+                "opacity": 1
             },
             {
                 "name": "Global Fish Biomass On Coral Reefs",
                 "displayName": "Fish Biomass on Coral Reefs",
-                "opacity": 0.5,
+                "opacity": 1,
                     "reportDbLayerName": "MOW_Global_Reef_FishBiomass",
                     "reports": [
                     {
