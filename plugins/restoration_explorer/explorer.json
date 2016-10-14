@@ -317,7 +317,7 @@
 								"index": 5
 							},
 							{
-								"text": "0.25m SLR Scenario",
+								"text": "1m SLR Scenario",
 								"type": "ancillary",
 								"default": 0,
 								"index": 6
@@ -434,7 +434,7 @@
 								"index": 5
 							},
 							{
-								"text": "0.25m SLR Scenario",
+								"text": "1m SLR Scenario",
 								"type": "ancillary",
 								"default": 0,
 								"index": 6
