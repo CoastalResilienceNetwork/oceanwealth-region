@@ -21,6 +21,12 @@
                 "displayName": "Carbon Sequestration",
                 "includeAllLayers": true,
                 "opacity": 1
+            },
+            {
+                "name": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
+                "displayName": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
+                "includeAllLayers": true,
+                "opacity": 1
             }
         ]
     }
