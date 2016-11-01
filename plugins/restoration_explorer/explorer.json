@@ -492,7 +492,7 @@
 			"url": "http://services.coastalresilience.org:6080/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
-			"dataset": "sde.cayman_wm",
+			"dataset": "sde.cayman_wm_erase",
 			"reqFields": ["objectid", "shape"],
 			"methods": "plugins/restoration_explorer/CaymanMethods.pdf",
             "sliderLabels" : ["None","Low","Med","High","V.High"],
