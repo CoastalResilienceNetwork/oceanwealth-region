@@ -29,9 +29,40 @@
         },
         "includeLayers": [
             {
-                "opacity": 1,
-                "includeAllLayers": true
-            }
+                "name": "Dive Shop Locations",
+                "displayName": "Dive Shop Locations",
+                "opacity": 1
+            },
+            {
+                "name": "Dive Sites",
+                "displayName": "Dive Sites",
+                "opacity": 1
+            },
+            {
+                "name": "Photo User Days",
+                "displayName": "Photo User Days",
+                "opacity": 1
+            },
+            {
+                "name": "Modeled Tourism Value of Coral Reefs (On-Reef)",
+                "displayName": "Modeled Tourism Value of Coral Reefs (On-Reef)",
+                "opacity": 1
+            },
+            {
+                "name": "Modeled Tourism Value of Coral Reefs (Reef Adjacent)",
+                "displayName": "Modeled Tourism Value of Coral Reefs (Reef Adjacent)",
+                "opacity": 1
+            },
+            {
+                "name": "Modeled Tourism Value of Coral Reefs (Total)",
+                "displayName": "Modeled Tourism Value of Coral Reefs (Total)",
+                "opacity": 1
+            },
+            {
+                "name": "Visitor Equivalents to Coral Reefs (Total)",
+                "displayName": "Visitor Equivalents to Coral Reefs (Total)",
+                "opacity": 1
+            }            
         ]
     }
 ]
