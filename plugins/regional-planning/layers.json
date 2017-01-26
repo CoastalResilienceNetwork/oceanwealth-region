@@ -42,7 +42,7 @@
         "includeLayers": [
             {
                 "name": "Global Coral Reef Habitat",
-                "displayName": "Coral Reefs",
+                "displayName": "Global Coral Reef Habitat",
                     "reportDbLayerName": "global_coral_reefs",
                     "reports": [
                     {
@@ -54,7 +54,7 @@
             },
             {
                 "name": "Global Mangrove Habitat",
-                "displayName": "Mangroves",
+                "displayName": "Global Mangrove Habitat",
                     "reportDbLayerName": "global_mangroves",
                     "reports": [
                     {
@@ -66,30 +66,34 @@
             },
             {
                 "name": "Global Seagrass Diversity (No. of Seagrass Species)",
-                "displayName": "Seagrass Diversity (No. of Species)"
+                "displayName": "Global Seagrass Diversity (No. of Species)"
             },
             {
                 "name": "Global Coral Diversity (No. of Coral Species per Ecoregion)",
-                "displayName": "Coral Diversity (No. of Species per Ecoregion)"
+                "displayName": "Global Coral Diversity (No. of Species per Ecoregion)"
             },
             {
                 "name": "Gridded Global Population (per sq km)",
-                "displayName": "Population (per sq km)"
+                "displayName": "Global Population (per sq km)"
             },
             {
                 "name": "Global population under 10m elevation (per sq km)",
-                "displayName": "Population under 10m elevation (per sq km)"
+                "displayName": "Global Population under 10m elevation (per sq km)"
             },
             {
                 "name": "Global GDP distributed by gridded population (US$ x 1000 per sq km)",
-                "displayName": "GDP by Population (US$ x 1,000 per sq km)"
+                "displayName": "Global GDP by Population (US$ x 1,000 per sq km)"
             },
             {
                 "name": "Global Ocean Wave Height - 95th Percentile (m)",
-                "displayName": "Ocean Wave Height (m)"
+                "displayName": "Global Ocean Wave Height - 95th Percentile (m)"
             },
             {
                 "name": "Marine and Coastal World Heritage Sites"
+            },
+            {
+                "name": "Global Coral Protection Index",
+                "displayName": "Global Coral Protection Index"
             }
         ]
     },

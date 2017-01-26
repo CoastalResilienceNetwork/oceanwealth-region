@@ -12,7 +12,7 @@
         "includeLayers": [
             {
                 "name": "Gulf of California Economic Impact From Tourism",
-                "displayName": "Gulf of California Tourism",
+                "displayName": "Gulf of California Economic Impact From Tourism",
                 "opacity": 1
             }
         ]
@@ -29,9 +29,8 @@
         },
         "includeLayers": [
             {
-                "name": "Modeled Tourism Value of Coral Reefs",
-                "displayName": "Tourism Value of Coral Reefs",
-                "opacity": 1
+                "opacity": 1,
+                "includeAllLayers": true
             }
         ]
     }
