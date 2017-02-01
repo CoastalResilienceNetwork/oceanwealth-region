@@ -109,6 +109,7 @@
                 "server": {
                     "name": "wdpa"
                 },
+                "name": "WDPA_poly",
                 "displayName": "WDPA"
             }
         ]
