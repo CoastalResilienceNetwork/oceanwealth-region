@@ -6,19 +6,19 @@
             "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
             {
                 "name": "Lesser Sunda Ecoregion Modeled Fish Biomass",
-                "displayName": "Lesser Sunda Fish Biomass",
+                "displayName": "Lesser Sunda Ecoregion Modeled Fish Biomass",
                 "includeAllLayers": true,
                 "opacity": 1
             },
             {
                 "name": "USA Current Biomass Production Due To Oyster Reefs (Tonnes)",
-                "displayName": "USA Current Oyster Reef Biomass (Tonnes)",
+                "displayName": "USA Current Biomass Production Due To Oyster Reefs (Tonnes)",
                 "opacity": 1
             }
         ]
@@ -36,12 +36,12 @@
         "includeLayers": [
             {
                 "name": "Modeled Value of Mangrove Fisheries",
-                "displayName": "Mangrove Fisheries",
+                "displayName": "Modeled Value of Mangrove Fisheries",
                 "opacity": 1
             },
             {
                 "name": "Global Fish Biomass On Coral Reefs",
-                "displayName": "Fish Biomass on Coral Reefs",
+                "displayName": "Global Fish Biomass On Coral Reefs",
                 "opacity": 1,
                     "reportDbLayerName": "MOW_Global_Reef_FishBiomass",
                     "reports": [
