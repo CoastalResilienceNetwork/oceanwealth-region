@@ -67,26 +67,26 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "",
-            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making.</center><br><center><img src='img/tnc1.png' hspace=20>&nbsp<img src='img/boston_univ_rgb.jpg' hspace=20>&nbsp<img src='img/NOAA_logo_color_broadcast2.jpg' hspace=20>&nbsp<img src='img/CC-PLC-color2.jpg' hspace=20>&nbsp<img src='img/FERU-logo.jpg' hspace=20>&nbsp<img src='img/UBO-Hor.png' hspace=20>&nbsp<img src='img/wcs-logo.jpg' hspace=20>&nbsp<img src='img/WRI.png' hspace=20>&nbsp<img src='img/BS2.jpg' hspace=20></p>",
+            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
             "plugins": [
                 {
                     "title": "Natural Coastal Protection",
-                    "description": "Investing in watershed health is a sustainable way to enhance water security. The Water Security Explorer enables users to explore cities that can meet specified pollution reduction targets using conservation actions and the area and cost required to reach these targets.",
+                    "description": "Discover the coastal protection benefits of coral reefs around the world",
                     "pluginName": "natural_coastal_protection"
                 },
                 {
                     "title": "Coral Reef Fisheries",
-                    "description": "Investing in watersheds produces a range of benefits that address other social, economic and ecological challenges in addition to water security. The Benefits Explorer app allows users to see where investments may achieve the most co-benefits for people and nature.",
+                    "description": "Learn about the status of Micronesian fisheries",
                     "pluginName": "coral-reef-fisheries"
                 },
                 {
                     "title": "Recreation and Tourism",
-                    "description": "Water Funds are a way to protect source water and share the benefits of healthy watersheds across communities. The Water Funds Explorer app allows users to view where water funds have been established, learn about their key attributes, and query across funds to see what approaches and attributes various funds have in common.",
+                    "description": "Explore the value of healthy ecosystems to the tourism industry",
                     "pluginName": "recreation-tourism"
                 },
                 {
                     "title": "Blue Carbon",
-                    "description": "Innovative investments can help address water depletion. The Water Share app enables users to look at how, where and when water has been used and explore potential strategies to alleviate scarcity within a given basin.",
+                    "description": "Investigate the power of mangrove ecosystems to store carbon",
                     "pluginName": "blue-carbon"
                 }
             ]
