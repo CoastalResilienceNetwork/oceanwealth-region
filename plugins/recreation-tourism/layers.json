@@ -12,7 +12,7 @@
         "includeLayers": [
             {
                 "name": "Gulf of California Economic Impact From Tourism",
-                "displayName": "Gulf of California Tourism",
+                "displayName": "Gulf of California Economic Impact From Tourism",
                 "opacity": 1
             }
         ]
@@ -24,14 +24,19 @@
             "layerType": "dynamic",
             "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
             {
-                "name": "Modeled Tourism Value of Coral Reefs",
-                "displayName": "Tourism Value of Coral Reefs",
-                "opacity": 1
+                "name": "Model Outputs",
+                "displayName": "Model Outputs",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Input Data",
+                "displayName": "Input Data",
+                "includeAllLayers": true
             }
         ]
     }
