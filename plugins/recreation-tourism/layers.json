@@ -1,41 +1,101 @@
 [
     {
-        "displayName": "Regional Data",
+        "displayName": "Recreation and Tourism",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "name": "Ocean_Wealth",
+            "name": "Recreation_and_Tourism",
             "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
             {
-                "name": "Gulf of California Economic Impact From Tourism",
-                "displayName": "Gulf of California Economic Impact From Tourism",
-                "opacity": 1
-            }
-        ]
-    },
-    {
-        "displayName": "Global Data",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
-            "name": "Ocean_Wealth",
-            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
-            "reportDbPath": "oceanwealth.gdb" 
-        },
-        "includeLayers": [
-            {
-                "name": "Model Outputs",
-                "displayName": "Model Outputs",
+                "name": "Bahamas",
+                "displayName": "Bahamas",
                 "includeAllLayers": true
             },
             {
-                "name": "Input Data",
-                "displayName": "Input Data",
+                "name": "Eastern Caribbean",
+                "displayName": "Eastern Caribbean",
+                "includeLayers": [
+					{
+						"name": "Antigua and Barbuda",
+					    "displayName": "Antigua and Barbuda",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Dominica",
+					    "displayName": "Dominica",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Grenada",
+					    "displayName": "Grenada",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "St. Kitts and Nevis",
+					    "displayName": "St. Kitts and Nevis",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "St. Lucia",
+					    "displayName": "St. Lucia",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "St. Vincent and the Grenadines",
+					    "displayName": "St. Vincent and the Grenadines",
+					    "includeAllLayers": true
+					}
+				]
+            },
+            {
+                "name": "Micronesia",
+                "displayName": "Micronesia",
+                "includeLayers": [
+					{
+						"name": "Federated States of Micronesia",
+					    "displayName": "Antigua and Barbuda",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Guam",
+					    "displayName": "Guam",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Mariana Islands",
+					    "displayName": "Mariana Islands",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Marshall Islands",
+					    "displayName": "Marshall Islands",
+					    "includeAllLayers": true
+					},
+					{
+						"name": "Palau",
+					    "displayName": "Palau",
+					    "includeAllLayers": true
+					}
+				]
+            },
+            {
+                "name": "USA",
+                "displayName": "USA",
+                "includeLayers": [
+					{
+						"name": "Florida",
+					    "displayName": "Florida",
+					    "includeAllLayers": true
+					}
+				]
+            },
+            {
+                "name": "Model Input Data",
+                "displayName": "Model Input Data",
                 "includeAllLayers": true
             }
         ]
