@@ -22,77 +22,23 @@
 					{
 						"name": "Antigua and Barbuda",
 					    "displayName": "Antigua and Barbuda",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Dominica",
-					    "displayName": "Dominica",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Grenada",
-					    "displayName": "Grenada",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "St. Kitts and Nevis",
-					    "displayName": "St. Kitts and Nevis",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "St. Lucia",
-					    "displayName": "St. Lucia",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "St. Vincent and the Grenadines",
-					    "displayName": "St. Vincent and the Grenadines",
-					    "includeAllLayers": true
+					    "includeLayers": [
+							{
+								"name": "Modelled Total Dollar Value of Reef Tourism (per km2)"
+					    	},
+					    	{
+								"name": "Modelled Total Visitation Value of Coral Reefs (per km2)"
+					    	},
+					    	{
+								"name": "On Reef Tourism Value (per km2)"
+					    	},
+					    	{
+								"name": "Reef Adjacent Tourism Value (per km2)"
+					    	}
+					    ]
 					}
 				]
-            },
-            {
-                "name": "Micronesia",
-                "displayName": "Micronesia",
-                "includeLayers": [
-					{
-						"name": "Federated States of Micronesia",
-					    "displayName": "Federated States of Micronesia",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Guam",
-					    "displayName": "Guam",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Mariana Islands",
-					    "displayName": "Mariana Islands",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Marshall Islands",
-					    "displayName": "Marshall Islands",
-					    "includeAllLayers": true
-					},
-					{
-						"name": "Palau",
-					    "displayName": "Palau",
-					    "includeAllLayers": true
-					}
-				]
-            },
-            {
-                "name": "USA",
-                "displayName": "USA",
-                "includeLayers": [
-					{
-						"name": "Florida",
-					    "displayName": "Florida",
-					    "includeAllLayers": true
-					}
-				]
-            },
+            },    
             {
                 "name": "Model Input Data",
                 "displayName": "Model Input Data",
