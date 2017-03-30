@@ -67,7 +67,7 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "",
-            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
+            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p><br><center><img src='img/tnc1.png' hspace=20>&nbsp<img src='img/boston_univ_rgb.jpg' hspace=20>&nbsp<img src='img/NOAA_logo_color_broadcast2.jpg' hspace=20>&nbsp<img src='img/CC-PLC-color2.jpg' hspace=20>&nbsp<img src='img/FERU-logo.jpg' hspace=20>&nbsp<img src='img/UBO-Hor.png' hspace=20>&nbsp<img src='img/wcs-logo.jpg' hspace=20>&nbsp<img src='img/WRI.png' hspace=20>&nbsp<img src='img/BS2.jpg' hspace=20>&nbsp<img src='img/blue_economy.png' hspace=20></center>",
             "plugins": [
                 {
                     "title": "Natural Coastal Protection",
