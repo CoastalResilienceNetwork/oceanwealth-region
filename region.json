@@ -44,12 +44,12 @@
         "natural_coastal_protection",
         "blue-carbon",
         "recreation-tourism",
+        "recreation-tourism-old",
          "fisheries",
 		    "zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle"
+        "full_extent"
     
     ],
     "print": {
