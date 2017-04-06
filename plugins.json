@@ -10,23 +10,23 @@
         },
         {
             "repo": "regional-planning",
-            "name": "regional-planning",
-            "ver": "ae93c8c"
+            "name": "regional-planning"
         },
         {
             "repo": "regional-planning",
-            "name": "blue-carbon",
-            "ver": "ae93c8c"
+            "name": "blue-carbon"
         },
         {
             "repo": "regional-planning",
-            "name": "fisheries",
-            "ver": "ae93c8c"
+            "name": "fisheries"
         },
         {
             "repo": "regional-planning",
-            "name": "recreation-tourism",
-            "ver": "ae93c8c"
+            "name": "recreation-tourism-old"
+        },
+        {
+            "repo": "recreation_tourism",
+            "name": "recreation-tourism"
         },
         {
             "repo": "coral-reef-fisheries",
