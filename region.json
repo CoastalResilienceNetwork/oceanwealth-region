@@ -84,7 +84,7 @@
                     "pluginName": "recreation-tourism"
                 },
                 {
-                    "title": "Blue Carbon",
+                    "title": "<img src='img/blue_carbon.png'>Blue Carbon",
                     "description": "Investigate the power of mangrove ecosystems to store carbon",
                     "pluginName": "blue-carbon"
                 }
