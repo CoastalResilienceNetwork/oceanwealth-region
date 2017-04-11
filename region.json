@@ -66,7 +66,7 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Atlas of Ocean Wealth",
-            "description": "Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making",
+            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
             "plugins": [
                 {
                     "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection",
@@ -92,18 +92,18 @@
         },
             "partners": [
                 {
-                    "logoPath": "img/blue_economy2.png",
+                    "logoPath": "<img src='img/blue_economy2.png'>",
                     "link": "",
                     "title": ""
 
                 },
                 {
-                    "logoPath": "img/endpoverty.jpg",
+                    "logoPath": "<img src='img/endpoverty.jpg'>",
                     "link": "",
                     "title": ""
                 },
                 {
-                    "logoPath": "img/worldbankgroup.png",
+                    "logoPath": "<img src='img/worldbankgroup.png'>",
                     "link": "",
                     "title": ""
                 }
