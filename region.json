@@ -92,18 +92,18 @@
         },
             "partners": [
                 {
-                    "logopath": "img/blue_economy2.png",
+                    "logoPath": "img/blue_economy2.png",
                     "link": "",
                     "title": ""
 
                 },
                 {
-                    "logopath": "img/endpoverty.jpg",
+                    "logoPath": "img/endpoverty.jpg",
                     "link": "",
                     "title": ""
                 },
                 {
-                    "logopath": "img/worldbankgroup.png",
+                    "logoPath": "img/worldbankgroup.png",
                     "link": "",
                     "title": ""
                 }
