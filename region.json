@@ -91,10 +91,14 @@
             ],
             "partners": [
                 {
-                    "logoPath": "img/blue_economy2.png",
+                    "logoPath": "img/tnc1.png",
                     "link": "",
                     "title": ""
-
+                },
+                {
+                    "logoPath": "img/blue_economy2.jpg",
+                    "link": "",
+                    "title": ""
                 },
                 {
                     "logoPath": "img/endpoverty.jpg",
@@ -103,6 +107,46 @@
                 },
                 {
                     "logoPath": "img/worldbankgroup.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/boston_univ_rgb.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/NOAA_logo_color_broadcast2.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/CC-PLC-color2.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/FERU-logo.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/UBO-Hor.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/wcs-logo.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/WRI.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/BS2.jpg",
                     "link": "",
                     "title": ""
             }
