@@ -88,25 +88,25 @@
                     "description": "Investigate the power of mangrove ecosystems to store carbon",
                     "pluginName": "blue-carbon"
                 }
-            ]
-        },
+            ],
             "partners": [
                 {
                     "logoPath": "img/blue_economy2.png",
                     "link": "",
-                    "title": "",
+                    "title": ""
 
                 },
                 {
                     "logoPath": "img/endpoverty.jpg",
                     "link": "",
-                    "title": "",
+                    "title": ""
                 },
                 {
                     "logoPath": "img/worldbankgroup.png",
                     "link": "",
-                    "title": "",
-                }
-            ]
-      }
+                    "title": ""
+            }
+        ]
+    }
+}
 
