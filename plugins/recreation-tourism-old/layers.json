@@ -11,8 +11,8 @@
         },
         "includeLayers": [
             {
-            	"name": "Global",
-                "displayName": "Global",
+            	"name": "Global ",
+                "displayName": "Global ",
                 "includeAllLayers": true
             },
             {
