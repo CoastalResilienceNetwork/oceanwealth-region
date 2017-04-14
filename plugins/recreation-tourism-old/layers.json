@@ -12,11 +12,13 @@
         "includeLayers": [
             {
             	"name": "Global",
-                "displayName": "Global"
+                "displayName": "Global",
+                "includeAllLayers": true
             },
             {
                 "name": "Bahamas",
-                "displayName": "Bahamas"
+                "displayName": "Bahamas",
+                "includeAllLayers": true
             },
             {
                 "name": "Eastern Caribbean",
@@ -24,43 +26,53 @@
                 "includeLayers": [
 					{
 						"name": "Antigua and Barbuda",
-					    "displayName": "Antigua and Barbuda"
+					    "displayName": "Antigua and Barbuda",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Anguilla",
-					    "displayName": "Anguilla"
+					    "displayName": "Anguilla",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "British Virgin Islands",
-					    "displayName": "British Virgin Islands"
+					    "displayName": "British Virgin Islands",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Dominica",
-					    "displayName": "Dominica"
+					    "displayName": "Dominica",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Grenada",
-					    "displayName": "Grenada"
+					    "displayName": "Grenada",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Martinique",
-					    "displayName": "Martinique"
+					    "displayName": "Martinique",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Montserrat",
-					    "displayName": "Montserrat"
+					    "displayName": "Montserrat",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "St. Kitts and Nevis",
-					    "displayName": "St. Kitts and Nevis"
+					    "displayName": "St. Kitts and Nevis",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "St. Lucia",
-					    "displayName": "St. Lucia"
+					    "displayName": "St. Lucia",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "St. Vincent and the Grenadines",
-					    "displayName": "St. Vincent and the Grenadines"
+					    "displayName": "St. Vincent and the Grenadines",
+					    "includeAllLayers": true
 					}
 				]
 			},
@@ -70,23 +82,28 @@
                 "includeLayers": [
 					{
 						"name": "Federated States of Micronesia",
-					    "displayName": "Federated States of Micronesia"
+					    "displayName": "Federated States of Micronesia",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Guam",
-					    "displayName": "Guam"
+					    "displayName": "Guam",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Mariana Islands",
-					    "displayName": "Mariana Islands"
+					    "displayName": "Mariana Islands",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Marshall Islands",
-					    "displayName": "Marshall Islands"
+					    "displayName": "Marshall Islands",
+					    "includeAllLayers": true
 					},
 					{
 						"name": "Palau",
-					    "displayName": "Palau"
+					    "displayName": "Palau",
+					    "includeAllLayers": true
 					}
 				]
             },
@@ -96,7 +113,8 @@
                 "includeLayers": [
 					{
 						"name": "Florida",
-					    "displayName": "Florida"
+					    "displayName": "Florida",
+					    "includeAllLayers": true
 					}
 				]
             }
