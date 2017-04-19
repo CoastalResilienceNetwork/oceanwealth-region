@@ -39,14 +39,13 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
         "coral-reef-fisheries",
         "natural_coastal_protection",
         "blue-carbon",
         "recreation-tourism",
-        "recreation-tourism-old",
          "fisheries",
-		    "zoom_to",
+        "regional-planning",
+		"zoom_to",
         "measure",
         "legend_display",
         "full_extent"

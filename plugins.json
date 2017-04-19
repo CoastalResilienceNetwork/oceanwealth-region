@@ -21,10 +21,6 @@
             "name": "fisheries"
         },
         {
-            "repo": "regional-planning",
-            "name": "recreation-tourism-old"
-        },
-        {
             "repo": "recreation_tourism",
             "name": "recreation-tourism"
         },
