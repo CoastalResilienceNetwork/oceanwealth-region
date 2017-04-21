@@ -74,14 +74,14 @@
                     "pluginName": "natural_coastal_protection"
                 },
                 {
-                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Coral Reef Fisheries",
-                    "description": "Learn about the status of Micronesian fisheries",
-                    "pluginName": "coral-reef-fisheries"
-                },
-                {
                     "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism",
                     "description": "Explore the value of healthy ecosystems to the tourism industry",
                     "pluginName": "recreation-tourism"
+                },
+                {
+                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Micronesia Fisheries",
+                    "description": "Learn about the status of Micronesian fisheries",
+                    "pluginName": "coral-reef-fisheries"
                 },
                 {
                     "title": "<img src='img/blue_carbon.png' hspace=10>Blue Carbon",
