@@ -69,14 +69,14 @@
             "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
             "plugins": [
                 {
-                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection",
-                    "description": "Discover the coastal protection benefits of coral reefs around the world",
-                    "pluginName": "natural_coastal_protection"
-                },
-                {
                     "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism",
                     "description": "Explore the value of healthy ecosystems to the tourism industry",
                     "pluginName": "recreation-tourism"
+                },
+                {
+                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection",
+                    "description": "Discover the coastal protection benefits of coral reefs around the world",
+                    "pluginName": "natural_coastal_protection"
                 },
                 {
                     "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Micronesia Fisheries",
