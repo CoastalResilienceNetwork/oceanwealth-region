@@ -1,6 +1,7 @@
 {
-    "name": "Coral Reef Restoration Explorer",
+    "name": "Caribbean Restoration Explorer",
     "text": "To begin, select a region to view.",
+    "ddText": "Choose a Restoration Type",
     "globalText": "Modify the sliders to change the values on the map (refresh takes a couple seconds).",
     "mainToggle": {"text": "Main Layer Transparency"},
     "betweenGroups": "*",

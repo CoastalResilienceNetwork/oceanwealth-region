@@ -1,13 +1,24 @@
 {
     "googleAnalyticsPropertyId": "7401895-32",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Atlas of Ocean Wealth", "url": "http://maps.oceanwealth.org/" },
+    "titleMain": { "text": "Atlas of Ocean Wealth", "url": "http://dev.maps.oceanwealth.org/" },
     "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "http://oceanwealth.org/" },
-	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
+    "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
         -130,
@@ -28,152 +39,117 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "regional-planning",
-        "coral-reef-fisheries",
-        "restoration_explorer",
-        "natural_coastal_protection",
         "recreation-tourism",
+        "natural_coastal_protection",
         "blue-carbon",
-        "fisheries",
+         "fisheries",
+        "coral-reef-fisheries",
+        "regional-planning",
 		"zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle"
+        "full_extent"
     
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth/PrintingOW/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A OW"  
+       "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+       "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+       "headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },
     "colors": {
-       "primary": "#26648E",
-       "secondary": "#26648E"
+       "primary": "#22497A",
+       "secondary": "#3A72B9",
+       "tertiary": "#333333",
+       "active": "#0096D6"
     },
-    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "identifyEnabled": true,
-    "subregions": {
-        "hideAtZoomLevel": 4,
-        "color": "#00C5CD",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": true,
-        "areas": [
-            {
-                "id": "caribbean",
-                "display": "Caribbean",
-                "details": "MOW region",
-                "shape": [[-86.13631351769882, 14.69378359495471], [-86.13631351769882, 24.676706703547772], [-64.58074256241925, 24.676706703547772], [-64.58074256241925, 14.69378359495471], [-86.13631351769882, 14.69378359495471]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "coral_reef_connectivity", "fisheries", "natural_coastal_protection", "recreation_tourism"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
-                "id": "coral-triangle",
-                "display": "Coral Triangle",
-                "details": "MOW region",
-                "shape": [[92.05583899705736, -15.211733080635105], [92.05583899705736, 18.735582236496978], [165.69329813458438, 18.735582236496978], [165.69329813458438, -15.211733080635105], [92.05583899705736, -15.211733080635105]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
-                "id": "gulf-of-california",
-                "display": "Gulf of California",
-                "details": "MOW region",
-                "shape": [[-115.03522701681075, 20.414187629710725], [-115.03522701681075, 31.9709333346525], [-105.18496660072324, 31.9709333346525], [-105.18496660072324, 20.414187629710725], [-115.03522701681075, 20.4141876297107]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {        
-                "id": "micronesia",
-                "display": "Micronesia",
-                "details": "MEOW region",
-                "shape": [[129.72775425570492, 0.9470352969425371], [129.72775425570492, 23.85266235731874], [175.42160403306445, 23.85266235731874], [175.42160403306445, 0.9470352969425371], [129.72775425570492, 0.9470352969425371]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {             
-                "id": "cold-temperate-northwestern-atlantic",
-                "display": "Northwest Atlantic Coast",
-                "details": "MEOW region",
-                "shape": [[-77.35871624037601, 34.55968453400416], [-77.35871624037601, 51.89649130485867], [-42.793020450897025, 51.89649130485867], [-42.793020450897025, 34.55968453400416], [-77.35871624037601, 34.55968453400416]],
-                "availablePlugins": ["layer_selector", "blue_carbon", "fisheries", "natural_coastal_protection", "recreation_tourism"],
-                "outlineColor": "#000",
-                "noFill": true
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "launchpad": {
+            "title": "Atlas of Ocean Wealth",
+            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism",
+                    "description": "Explore the value of healthy ecosystems to the tourism industry",
+                    "pluginName": "recreation-tourism"
+                },
+                {
+                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection",
+                    "description": "Discover the coastal protection benefits of coral reefs around the world",
+                    "pluginName": "natural_coastal_protection"
+                },
+                {
+                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Micronesia Fisheries",
+                    "description": "Learn about the status of Micronesian fisheries",
+                    "pluginName": "coral-reef-fisheries"
+                },
+                {
+                    "title": "<img src='img/blue_carbon.png' hspace=10>Blue Carbon",
+                    "description": "Investigate the power of mangrove ecosystems to store carbon",
+                    "pluginName": "blue-carbon"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/tnc1.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/worldbankgroup.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/blueeconomy2.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/end_poverty.JPG",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/boston_univ_rgb.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/NOAA_logo_color_broadcast2.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/CC-PLC-color2.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/FERU-logo.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/UBO-Hor.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/wcs-logo.jpg",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/WRI.png",
+                    "link": "",
+                    "title": ""
+                },
+                {
+                    "logoPath": "img/BS2.jpg",
+                    "link": "",
+                    "title": ""
             }
         ]
-    },
-     "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "<center>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making.</center><br><center><img src='img/tnc1.png' hspace=20>&nbsp<img src='img/boston_univ_rgb.jpg' hspace=20>&nbsp<img src='img/NOAA_logo_color_broadcast2.jpg' hspace=20>&nbsp<img src='img/CC-PLC-color2.jpg' hspace=20>&nbsp<img src='img/FERU-logo.jpg' hspace=20>&nbsp<img src='img/UBO-Hor.png' hspace=20>&nbsp<img src='img/wcs-logo.jpg' hspace=20>&nbsp<img src='img/WRI.png' hspace=20>&nbsp<img src='img/BS2.jpg' hspace=20></center>",
-            "showSubRegions": false,
-            "showByDefault": true,
-            "categories": [
-              {
-                "name": "Geographies",
-                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
-                "issues": [
-                    {
-                      "name": "Explore the map",
-                      "description": "",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjc0ODQ3My4zMjU1MTE0NDbEmnnFgcWDNjcyMzYxNi41NMWjMjk5xYvEv8SpeMSIxYXFh8WJxYvFjcWPxZHFk8WVxZfFq8SINzYzOTIwxaE4McWHxbs5NjjEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMWtMDIxMDDEmmzGimVzdFfGmMaaOjM4NTd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGsHBhbmXEq8aVx4THhk51bWLGkceBxoh0xqNPZlBsdWfFgsSixpXEmMazxrVlZMeXx5nFgsSIbnVsbMSaxIzHpG7HnHvGr8av",
-                      "faIcon": "fa fa-globe",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Caribbean: Coral Reef Tourism",
-                      "description": "temp Example generated for baja stakeholder presentation",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjbFhjUzMy45MjM5OcWFMDnEmnnFgcSTMjI1MMWZLjY3NjAwxZ8yxZA1xL/EqXjEiC02xY03Mzg5LsWTxZs0xZA4M8WVxanEiDPFhznFuMWLNjbFjzQwNzE1NsSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxZzGnzDEmmzGjWVzdFfGm8adOsWwNTfEpyJjYWNoxpfEgF9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvHgsWoxYLFq8WFxYc2xYnFi8WNxY/FkTLFk8W6x4o6xZnFm8WdxZ/FocWjN8WlOcWnIsWAYcWqOsWsxa7FsMWyxbQwxbbFv8W5IsWWx6XFvMW+xoDFnsaDOcaFxofGicaLxrnGjsaQxpLGlMSGY8a2xpnGqsaexqDFosajxqXGp8apxpzFvDjGrn3GsGZyYW1lSWTGvVswXX3In8awxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDDGsMa5bmXEq8aYyLVlTnVtYsaUyLLGi3TGpU9mUGx1Z8WCxr3EimXIpMimZWTJh8mJx5cixIzJlG5zL8SExJHGjWlvbi10b3VyaXNtIsSayZfJismZxLPJrMmLyZvIpcSEyZ7JoMmiyaTJpsmoxLPGpHnGlMmMxrHJpcaVdMaRyYrJoMSIbnVsbMSaZmlsxLByVMS7xLnJqsSByY7IpcinTGHJvXLInCJHbG9ixJYgRMaNYS9UybjJp20gVsSWdWUgb2YgQ2/IlmwgxpHGksSiXcSaxK7ItciwZMqaypzKnsqgyqLKpMqmyYPKlcqEyZ9uy4rKpyLKvyLJvMaUT8a5Y8SOecSIW8uUxYJmb0JveMuFxpTImsqHyolsxrBkyJZ3xpFwyrjEssaYxrplYcmFyK7KkMamy7PKiMqKyJPLv30=",
-                      "faIcon": "fa fa-ship",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Lesser Sunda: Fish Biomass",
-                      "description": "temp Example generated for baja stakeholder presentation",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEkzEzMDI3MjY3LjEwOTg0NTYwMcSaecWBxJMtMTQwMzQ5NC7FiTg3ODnFpTY4xL/EqXjEiMWbNTgyOcWELjXFjsW2xbY5M8WWxazEiC01NTLFsjHFtTIxODA2xbIwNMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxa7FhsWNMMSabMaQZXN0V8aexqA6Mzg1N8SnImNhY2jGmsSAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eFxavFgsWuxYXFh8WJxYvFjcWPxZHFk8WVIsWXx406xZrFnMWexaDFosWpxaXFpzjFqcWrYcWtOsWvxbHFszPFtcW3MMW5xbvHmMW9x5vGgMaCxbPGhcaHxonGi8aNxIHGvMaRxpPGlcaXxIZjxrnGnMasxqHGhjDGpCLGpsSwxqnGq8afxIjGr8axfcazZnJhbWVJZMeAWzBdfciixrPEmGxlY8SwZEJhxJjEqXBJbmTErsSIMMazxrxuZcSrxpvIuGVOdW1ixpfItcaOdManT2ZQbHVnxYLHgMSKZcinyKllZMmKyYzHmiLEjMmXbnMvZmlzxrhyacaoIsSayZrJjcmcxLPJqMmOyZ7JoMmiyaTJj8iNYXnGl8myY3Vyxph0xpTJjW/Ek251bGzEmsmfbMSwclTEu8S5yabEgcmRyKjIqkzJtMm2xIhbIsm9acm/xJYgRMaQYS9MxqjEmHIgU3XIsmEgRsmvIELKmcSpc8mdyqvJocqtyq/IrXMsIEphyoHGvXkiXcSaxK7IuMizZMqSybVyyJ/Kl2XJvm7Km8qdyYbKjcqYyppsypzKnsqgyqLGl8qlyqdkyqnKs2jKtW/KsMSiy4HJs8uIT8a8Y8SOyr/HgculxYJmb0JveMuHxpfIncSIyoHKg8azZMiZd8aUcG/GvsSzxr1lYcmIyLHKiMaoxLI6y7lsyJbMj30=",
-                      "faIcon": "fa fa-life-ring",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "USA: Oyster Reef Biomass",
-                      "description": "Example one-click map",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjk0NDUxMS45NjE2NTfFiTnEmnnFgcSTMjcxOTnFmi7FmsWeMzQyMjAzxL/EqXjEiC03MsWJMzY3LjEzxZrFkDIzMcWWxarEiMWPxa83MzjFoMWyxZA4xaY1xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTEiDEwMsaeMMSabMaMZXN0V8aaxpw6xoLFksSnImNhY2jGlsSAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eBxanFgsWsxYXFh8WJxYvFjcWPxZHFkzXFlSLFl8eJOsW3xZ3Fn8WhxbnFpMWmxagixYBhxas6xa3FrzXFscWzxbXFtzbFucW7x5XFvTrFvzTGgcaDMsaFNsaHMMaJxIHGuMaNxo/GkcaTxIZjxrXGmMaqxp3Gn8ahxqPGpcanxqnGm8SIxq03fcavZnJhbWVJZMa8WzBdfcifxq/EmGxlY8SwZEJhxJjEqXBJbmTErsSIMMavxrhuZcSrxpfItWVOdW1ixpPIssaKdMalT2ZQbHVnxYLGvMSKZcikyKZlZMmHyYnHlyLEjMmUbnMvZmlzxrRyacamIsSayZfJismZxLPJpcmLyZvJncmfyaHJjCLGpHnGk8mvY3VyxpR0xpDJim/Ek251bGzEmsmcbMSwclTEu8S5yaPEgcmOyKXIp0xhybJyyJwiybppybzEliBExoxhL1VTQSBDybbJuCBPecanxpMgxpDGkSBCypbEqXNzIChUybzItnMpIl3EmsSuyLXIsGTKj8qRypNHbG9iypjKmsmDyorKlcqXbMqZypvKusiLypFPxrhjxI55xIhbyrsixYJmb0JveMuBxpPImsSIyb7KgMavZMiWd8aQcG/GusSzxrllYcmFyK7KhcamxLI6y6dsyJPLvX0=",
-                      "faIcon": "fa fa-shield",
-                      "faSize": 32
-                    }
-                ]
-            } ,
-            {
-                "name": "One-click Interactive Map",
-                "description": "Customized maps scenarios for exploring ocean ecosystem services globally and regionally.",
-                "issues": [
-                    {
-                      "name": "Coral Diversity",
-                      "description": "temp Example generated for baja stakeholder presentation",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMTM5ODI4OS42NTc4xYk0NTLEmnnFgcWDNjM1McWJNi44xYc4NTA5NzPEv8SpeMSIxYXFosWKxYzFjsWQxZLFlMWWxarEiDcyNjc0MTcuxYXFnTg0xabEmsSLYXRpxJZSZWZlxITEncS4xIkid2tpZMWsMDIxMDDEmmzGh2VzdFfGlcaXOjPFozfEpyJjYWNoxpHEgF9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvGvcWpxYLEiMWExYbFiMWvxY3Fj8WRMsWTxZUixZfHhTotxZrFnMWexaDFosWkxabFqCLFgGHFqzrFrceJxYvHi8Wyx47FtMeRxbY6xbjFusW8xb7GgMWRxoM3xoXGtMaIxorGjMaOxIZjxrHGk8alxpjGmsacxp7GoMaixqTGlsSIxqjFj33Gq2ZyYW1lSWTGuFswXX3Il8arxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDDGq8a0bmXEq8aSyK1lTnVtYsaOyKrGhXTGoE9mUGx1Z8WCxrjEimXInMieZWTIv8mBx5MixIzJjG5zL8SEyYJvbsSWLcSMYW5uxYJnIsSayY/JgsmRxLPJosmDyZNlyZXJl2zJmcafyZzJnsSzxp95xo7JhMasdXLGj3TGi8mqxIhudWxsxJpmaWzEsHJUxLvEucmgxIHJhsidyJ9MYcmzcsiUIkdsb2LEliBExodhL0NvyI5syptpdsm0xI55IChOby4gb2YgU8S3Y2nGoSDEt3IgRWPKocmpacmWKSJdxJrErsityKhkypDKksqUypbKmMqaypzIu8uDyIPKkk/GtMq1xLXEiFvLhCLFgmZvQm94y4rGjsiSyb3Jv2zGq2TIjnfGi3DKocSyxpLGtWVhyL3IpsqGxqHLsMm+yoDIi8u8fQ==",
-                      "faIcon": "fa fa-life-ring",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Blue Carbon: Mangrove Biomass",
-                      "description": "Example one-click map",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMjQzNTM4Ny4yNTc2NTU0NDfEmnnFgcWDNsWIMTgyNi44Mzk4NTA5NzPEv8SpeMSIxYU0xZM5xZIuMTM2ODk2xZQ4xZfFrMSIN8WfNzQxxYwxxoY4ODTFqMSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxa4wMjEwMMSabMaOZXN0V8acxp46xYrFj8SnImNhY2jGmMSAX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8eDxavFgsSIxYTFhsWIxYrFjMWOxZDFksWUxZYixZjHizotxZs1xZ3Fn8WhxaPFpcWnxanFq2HFrTrFr8WxxbPFtcW3xbnFu8W9x6bFv8aBxoPGhcaHxonGi8SBxrrGj8aRxpPGlcSGY8a3xprGrMafxqHGo8alxqfGqcarxp3EiMavN33GsWZyYW1lSWTGvlswXX3Im8axxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDDGsca6bmXEq8aZyLFlTnVtYsaVyK7GjHTGp09mUGx1Z8WCxr7EimXIoMiiZWTJg8mFx5kixIzJkG5zL2LJhGUtxrNyYm/Eh8SayZPJhsmVxLPJosmHyZfJmcmbxrvJnsSTxIDGpnnGlcmIxrJ1csaWdMaSyYbJn8SIbnVsbMSaZmlsxLByVMS7xLkixozJisihyKNMYcmwcsiYIkdsb2LEliBExo5hL0HJnnbJmkdyb3XIqyBCaW/EqXPJlsSfbmfKo8qgxKJdxJrErsixyKxkyo7KkMqSypTKlsqYyprIv8qJypPKlcqXbMqZypvKncqfyqHKo8qlZMqnyqnKq8qzyIfKkE/GumPEjnnEiFvKtCLFgmZvQm94yrrGlciWybvJvWzGsWTIknfGknBvxrzEs8a7ZWHJgciqyoTGqMSyOsm8yb7Ij8u+fQ==",
-                      "faIcon": "fa fa-leaf",
-                      "faSize": 32
-                    }
-                  ]
-              }
-            ]
-        }
-    ]
+    }
 }
 
