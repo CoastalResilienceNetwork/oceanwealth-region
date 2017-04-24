@@ -90,9 +90,9 @@
             ],
             "partners": [
                 {
-                    "logoPath": "img/tnc1.png",
-                    "link": "",
-                    "title": ""
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://oceanwealth.org",
+                    "title": "The Nature Conservancy"
                 },
                 {
                     "logoPath": "img/worldbankgroup.png",
