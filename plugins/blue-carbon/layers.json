@@ -17,6 +17,12 @@
                 "opacity": 1
             },
             {
+                "name": "Soil Organic Carbon",
+                "displayName": "Soil Organic Carbon",
+                "includeAllLayers": true,
+                "opacity": 1
+            },
+            {
                 "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
                 "displayName": "Carbon Sequestration",
                 "includeAllLayers": true,
