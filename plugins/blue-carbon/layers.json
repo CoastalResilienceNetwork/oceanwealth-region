@@ -19,11 +19,17 @@
             {
                 "name": "Soil Organic Carbon",
                 "displayName": "Soil Organic Carbon",
-                "includeAllLayers": [
+                "includeLayers": [
                 	{
-						"name": "Soil Organic Carbon (metric tons)1",
-					    "displayName": "Soil Organic Carbon (metric tons)",
-						"opacity": 1
+						"name": "Mangroves",
+					    "displayName": "Mangroves",
+						"includeLayers": [
+                			{
+								"name": "Soil Organic Carbon (metric tons)1",
+					    		"displayName": "Soil Organic Carbon (metric tons)",
+					    		"opacity":1
+							}
+						]
                 	}
                 ]
             },
