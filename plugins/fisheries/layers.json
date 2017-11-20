@@ -4,9 +4,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "url": "http://services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "http://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
@@ -28,20 +28,20 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "url": "http://services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "http://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
             {
-                "name": "Modeled Value of Mangrove Fisheries",
-                "displayName": "Modeled Value of Mangrove Fisheries",
+                "name": "Modeled Fish Catch from Mangrove Forests",
+                "displayName": "Modeled Fish Catch from Mangrove Forests",
                 "opacity": 1
             },
             {
-                "name": "Global Fish Biomass On Coral Reefs",
-                "displayName": "Global Fish Biomass On Coral Reefs",
+                "name": "Global Modelled Fish Catch On Coral Reefs",
+                "displayName": "Global Modelled Fish Catch On Coral Reefs",
                 "opacity": 1,
                     "reportDbLayerName": "MOW_Global_Reef_FishBiomass",
                     "reports": [
