@@ -35,13 +35,13 @@
         },
         "includeLayers": [
             {
-                "name": "Modeled Value of Mangrove Fisheries",
-                "displayName": "Modeled Value of Mangrove Fisheries",
+                "name": "Modeled Fish Catch from Mangrove Forests",
+                "displayName": "Modeled Fish Catch from Mangrove Forests",
                 "opacity": 1
             },
             {
-                "name": "Global Fish Biomass On Coral Reefs",
-                "displayName": "Global Fish Biomass On Coral Reefs",
+                "name": "Global Modelled Fish Catch On Coral Reefs",
+                "displayName": "Global Modelled Fish Catch On Coral Reefs",
                 "opacity": 1,
                     "reportDbLayerName": "MOW_Global_Reef_FishBiomass",
                     "reports": [

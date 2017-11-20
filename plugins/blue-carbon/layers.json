@@ -53,8 +53,23 @@
         },
         "includeLayers": [
             {
+                "name": "Richmond River Blue Carbon (Mg per Hectare)",
+                "displayName": "Richmond River Blue Carbon (Mg per Hectare)",
+                "opacity": 1
+            },
+            {
+                "name": "Mangrove Biomass Carbon Stock (Mgha-1)",
+                "displayName": "Mangrove Biomass Carbon Stock (Mgha-1)",
+                "opacity": 1
+            },
+            {
                 "name": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
                 "displayName": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
+                "opacity": 1
+            },
+            {
+                "name": "Australia Coastal Ecosystems",
+                "displayName": "Australia Coastal Ecosystems",
                 "opacity": 1
             }
         ]
