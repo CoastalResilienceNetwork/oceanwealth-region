@@ -79,8 +79,8 @@
                     "pluginName": "natural_coastal_protection"
                 },
                 {
-                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Micronesia Fisheries",
-                    "description": "Learn about the status of Micronesian fisheries",
+                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Coral Reef Fisheries",
+                    "description": "Learn about the status of coral reef fisheries",
                     "pluginName": "coral-reef-fisheries"
                 },
                 {
