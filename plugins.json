@@ -23,10 +23,6 @@
         {
             "repo": "recreation_tourism",
             "name": "recreation-tourism"
-        },
-        {
-            "repo": "coral-reef-fisheries",
-            "name": "coral-reef-fisheries"
         }
     ]
 }
