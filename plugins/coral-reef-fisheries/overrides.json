@@ -1,0 +1,9 @@
+{
+    "height": 600,
+    "width": 400,
+    "resizable": false,
+    "hasCustomPrint": true,
+    "name": "Coral Reef Fisheries",
+    "infoGraphic": "<div><img src='plugins/coral-reef-fisheries/fishproduction.jpg'/></div>"
+}
+
