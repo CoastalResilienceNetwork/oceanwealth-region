@@ -488,7 +488,7 @@
 			}
 		  ],
 	        "name": "Cayman",
-			"ancillaryUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/OceanWealth/MOW_RestorationExplorer/MapServer",
+			"ancillaryUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/OceanWealth/MOW_RestorationExplorer/MapServer",
 			"sliderLabels" : ["None","Low","Med","High","V.High"],
 			"url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Explorers_PG_Database/DatabaseConnection/MapServer",
 			"workspaceId": "postgis",
