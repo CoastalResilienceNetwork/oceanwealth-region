@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "Regional Data",
+        "displayName": "Global Datasets",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -11,26 +11,29 @@
         },
         "includeLayers": [
             {
-                "name": "Gulf of California Mangrove Habitat Dollar Value (US)",
-                "displayName": "Gulf of California Mangrove Habitat Dollar Value (US)",
-                    "reportDbLayerName": "MOW_GoC_MangroveHabitatValue",
-                    "reports": [
-                    {
-                        "display": "Area of Interest",
-                        "units": "U.S. Dollars",
-                        "field": ""
-                    }
-                ]
+                "name": "Tourism & Recreation",
+                "displayName": "Tourism & Recreation",
+                "includeAllLayers": true
             },
             {
-                "name": "USA Water Filtration by Oyster Reefs",
-                "displayName": "USA Water Filtration by Oyster Reefs",
+                "name": "Coastal Protection",
+                "displayName": "Coastal Protection",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Fisheries",
+                "displayName": "Fisheries",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Carbon Storage and Sequestration",
+                "displayName": "Carbon Storage and Sequestration",
                 "includeAllLayers": true
             }
         ]
     },
     {
-                "displayName": "Global Data",
+        "displayName": "Regional Datasets",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -41,76 +44,62 @@
         },
         "includeLayers": [
             {
-                "name": "Global Coral Reef Habitat",
-                "displayName": "Global Coral Reef Habitat",
-                    "reportDbLayerName": "global_coral_reefs",
-                    "reports": [
-                    {
-                        "display": "Area of Interest",
-                        "units": "sq km",
-                        "field": ""
-                    }
-                ]
+                "name": "Australia",
+                "displayName": "Australia",
+                "includeAllLayers": true
             },
             {
-                "name": "Global Mangrove Habitat",
-                "displayName": "Global Mangrove Habitat",
-                    "reportDbLayerName": "global_mangroves",
-                    "reports": [
-                    {
-                        "display": "Area of Interest",
-                        "units": "sq km",
-                        "field": ""
-                    }
-                ]
+                "name": "Bahamas",
+                "displayName": "Bahamas",
+                "includeAllLayers": true
             },
             {
-                "name": "Global Seagrass Diversity (No. of Seagrass Species)",
-                "displayName": "Global Seagrass Diversity (No. of Species)"
+                "name": "Gulf of California",
+                "displayName": "Gulf of California",
+                "includeAllLayers": true
             },
             {
-                "name": "Global Coral Diversity (No. of Coral Species per Ecoregion)",
-                "displayName": "Global Coral Diversity (No. of Species per Ecoregion)"
+                "name": "Indonesia (Lesser Sunda)",
+                "displayName": "Indonesia (Lesser Sunda)",
+                "includeAllLayers": true
             },
             {
-                "name": "Gridded Global Population (per sq km)",
-                "displayName": "Global Population (per sq km)"
+                "name": "Micronesia",
+                "displayName": "Micronesia",
+                "includeAllLayers": true
             },
             {
-                "name": "Global population under 10m elevation (per sq km)",
-                "displayName": "Global Population under 10m elevation (per sq km)"
-            },
-            {
-                "name": "Global GDP distributed by gridded population (US$ x 1000 per sq km)",
-                "displayName": "Global GDP by Population (US$ x 1,000 per sq km)"
-            },
-            {
-                "name": "Global Ocean Wave Height - 95th Percentile (m)",
-                "displayName": "Global Ocean Wave Height - 95th Percentile (m)"
-            },
-            {
-                "name": "Marine and Coastal World Heritage Sites"
-            },
-            {
-                "name": "Global Coral Protection Index",
-                "displayName": "Global Coral Protection Index"
+                "name": "United States",
+                "displayName": "United States",
+                "includeAllLayers": true
             }
         ]
     },
     {
-        "displayName": "World Database on Protected Areas (WDPA)",
+        "displayName": "Reference Data",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://ec2-54-204-216-109.compute-1.amazonaws.com:6080/arcgis/rest/services/wdpa"
+            "url": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
             {
-                "server": {
-                    "name": "wdpa"
-                },
-                "name": "WDPA_poly",
-                "displayName": "WDPA"
+                "name": "Habitat",
+                "displayName": "Habitat",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Environmental",
+                "displayName": "Environmental",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Socioeconomic",
+                "displayName": "Socioeconomic",
+                "includeAllLayers": true
             }
         ]
     }
