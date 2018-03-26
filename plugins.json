@@ -13,10 +13,6 @@
             "name": "blue-carbon"
         },
         {
-            "repo": "regional-planning",
-            "name": "fisheries"
-        },
-        {
             "repo": "recreation_tourism",
             "name": "recreation-tourism"
         },
