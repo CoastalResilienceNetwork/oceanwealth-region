@@ -1,8 +1,0 @@
-{
-    "height": 400,
-    "width": 400,
-    "resizable": false,
-    "hasCustomPrint": true,
-    "name": "Fisheries",
-    "infoGraphic": "<div><img src='plugins/fisheries/fishproduction.jpg'/></div>"
-}

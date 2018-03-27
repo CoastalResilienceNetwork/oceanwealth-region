@@ -1,7 +1,7 @@
 {
-    "googleAnalyticsPropertyId": "7401895-32",
+    "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Atlas of Ocean Wealth", "url": "http://dev.maps.oceanwealth.org/" },
+    "titleMain": { "text": "Mapping Ocean Wealth", "url": "http://dev.maps.oceanwealth.org/" },
     "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "http://oceanwealth.org/" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
@@ -42,8 +42,7 @@
         "recreation-tourism",
         "natural_coastal_protection",
         "blue-carbon",
-         "fisheries",
-        "coral-reef-fisheries",
+         "coral-reef-fisheries",
         "regional-planning",
 		"zoom_to",
         "measure",
@@ -64,35 +63,35 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Atlas of Ocean Wealth",
-            "description": "<p>Ocean Wealth provides a way to calculate and describe in quantitative and spatial terms all that the ocean does for us to support smart investments and decision-making</p>",
+            "title": "Mapping Ocean Wealth",
+            "description": "<p>The Mapping Ocean Wealth data viewer is a live online resource for sharing understanding of the value of marine and coastal ecosystems to people. It includes global maps, regionally-specific studies, reference data, and a number of “apps” providing key data analytics. Maps and apps can be opened according to key themes or geographies.  The navigator the left of the maps enables you to add or remove any additional map layers as you explore. Information keys explain how the maps were made and provide additional links. Further information and resources can be found on <a href= 'http://oceanwealth.org/' target='_blank'><b>Oceanwealth.org</b></a></p>",
             "plugins": [
                 {
-                    "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism",
+                    "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism App",
                     "description": "Explore the value of healthy ecosystems to the tourism industry",
                     "pluginName": "recreation-tourism"
                 },
                 {
-                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection",
+                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection App",
                     "description": "Discover the coastal protection benefits of coral reefs around the world",
                     "pluginName": "natural_coastal_protection"
                 },
                 {
-                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Coral Reef Fisheries",
+                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Coral Reef Fisheries App",
                     "description": "Learn about the status of coral reef fisheries",
                     "pluginName": "coral-reef-fisheries"
                 },
                 {
-                    "title": "<img src='img/blue_carbon.png' hspace=10>Blue Carbon",
-                    "description": "Investigate the power of mangrove ecosystems to store carbon",
-                    "pluginName": "blue-carbon"
+                    "title": "<img src='img/regional_planning.png' hspace=10>Data Layers",
+                    "description": "Investigate data layers",
+                    "pluginName": "regional-planning"
                 }
             ],
             "partners": [
                 {
-                    "logoPath": "img/TNCLogoPrimary_RGB.png",
-                    "link": "http://oceanwealth.org",
-                    "title": "The Nature Conservancy"
+                    "logoPath": "img/tnc1.png",
+                    "link": "",
+                    "title": ""
                 },
                 {
                     "logoPath": "img/worldbankgroup.png",
