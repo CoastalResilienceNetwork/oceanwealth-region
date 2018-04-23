@@ -1,0 +1,72 @@
+[
+    {
+        "displayName": "Global Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Above Ground Biomass",
+                "displayName": "Above-Ground Biomass",
+                "includeAllLayers": true,
+                "opacity": 1
+            },
+           	{
+                "name": "Carbon Storage and Sequestration",
+                "displayName": "Soil Organic Carbon - Mangroves",
+                "includeLayers": [
+                    {
+                        "name": "Soil Organic Carbon1 (metric tons)",
+                        "displayName": "Soil Organic Carbon (metric tons)"
+                    }
+             	]
+            },	
+            {
+                "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
+                "displayName": "Carbon Sequestration",
+                "includeAllLayers": true,
+                "opacity": 1
+            }
+        ]
+    },
+    {
+        "displayName": "Australia",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "name": "Ocean_Wealth",
+            "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Richmond River Blue Carbon (Mg per Hectare)",
+                "displayName": "Richmond River Blue Carbon (Mg per Hectare)",
+                "opacity": 1
+            },
+            {
+                "name": "Mangrove Biomass Carbon Stock (Mgha-1)",
+                "displayName": "Mangrove Biomass Carbon Stock (Mgha-1)",
+                "opacity": 1
+            },
+            {
+                "name": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
+                "displayName": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
+                "opacity": 1
+            },
+            {
+                "name": "Australia Coastal Ecosystems",
+                "displayName": "Australia Coastal Ecosystems",
+                "opacity": 1
+            }
+        ]
+    }
+]
+
+

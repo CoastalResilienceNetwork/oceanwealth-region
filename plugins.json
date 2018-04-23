@@ -15,6 +15,10 @@
         {
             "repo": "coral-reef-fisheries",
             "name": "coral-reef-fisheries"
+        },
+        {
+            "repo": "regional-planning",
+            "name": "blue-carbon"
         }
     ]
 }
