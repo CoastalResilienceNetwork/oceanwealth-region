@@ -16,23 +16,16 @@
                 "includeAllLayers": true,
                 "opacity": 1
             },
-            {
-                "name": "Soil Organic Carbon",
-                "displayName": "Soil Organic Carbon",
+           	{
+                "name": "Carbon Storage and Sequestration",
+                "displayName": "Soil Organic Carbon - Mangroves",
                 "includeLayers": [
-                	{
-						"name": "Mangroves",
-					    "displayName": "Mangroves",
-						"includeLayers": [
-                			{
-								"name": "Soil Organic Carbon (metric tons)1",
-					    		"displayName": "Soil Organic Carbon (metric tons)",
-					    		"opacity":1
-							}
-						]
-                	}
-                ]
-            },
+                    {
+                        "name": "Soil Organic Carbon1 (metric tons)",
+                        "displayName": "Soil Organic Carbon (metric tons)"
+                    }
+             	]
+            },	
             {
                 "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
                 "displayName": "Carbon Sequestration",
