@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/OceanWealth",
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
             "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
@@ -37,7 +37,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/OceanWealth",
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
             "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
@@ -80,7 +80,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/OceanWealth",
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
             "reportGpUrl": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
