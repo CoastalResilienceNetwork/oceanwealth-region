@@ -27,9 +27,13 @@
             },
             {
                 "name": "Carbon Storage and Sequestration",
-                "displayName": "Carbon Storage and Sequestration",
-                "includeAllLayers": true
-            }
+                "includeLayers": [
+                    {
+                        "name": "Soil Organic Carbon1 (metric tons)",
+                        "displayName": "Soil Organic Carbon (metric tons)"
+                    }
+             	]
+             }		
         ]
     },
     {
