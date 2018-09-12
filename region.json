@@ -1,8 +1,12 @@
-{
-    "googleAnalyticsPropertyId": "7401895-32",
+﻿{
+    "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Mapping Ocean Wealth Explorer", "url": "http://dev.maps.oceanwealth.org/" },
     "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "http://oceanwealth.org/" },
+    "singlePluginMode": {
+        "active": true,
+        "pluginFolderName": "recreation_tourism"
+    },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -38,17 +42,11 @@
         { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
+    "pluginFolders": [
+        "plugins"    
+    ],
     "pluginOrder": [
-        "recreation-tourism",
-        "natural_coastal_protection",
-        "blue-carbon",
-         "coral-reef-fisheries",
-        "regional-planning",
-		"zoom_to",
-        "measure",
-        "legend_display",
-        "full_extent"
-    
+        "recreation-tourism"
     ],
     "print": {
        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
@@ -61,94 +59,6 @@
        "tertiary": "#333333",
        "active": "#0096D6"
     },
-   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "launchpad": {
-            "title": "Mapping Ocean Wealth Explorer",
-            "description": "<p>The Mapping Ocean Wealth data viewer is a live online resource for sharing understanding of the value of marine and coastal ecosystems to people. It includes global maps, regionally-specific studies, reference data, and a number of “apps” providing key data analytics. Maps and apps can be opened according to key themes or geographies.  The navigator the left of the maps enables you to add or remove any additional map layers as you explore. Information keys explain how the maps were made and provide additional links. Further information and resources can be found on <a href= 'http://oceanwealth.org/' target='_blank'><b>Oceanwealth.org</b></a></p>",
-            "plugins": [
-                {
-                    "title": "<img src='img/recreation_tourism.png' hspace=10>Recreation and Tourism App",
-                    "description": "Explore the value of healthy ecosystems to the tourism industry",
-                    "pluginName": "recreation-tourism"
-                },
-                {
-                    "title": "<img src='img/natural_coastal_protection.png' hspace=10>Natural Coastal Protection App",
-                    "description": "Discover the coastal protection benefits of coral reefs around the world",
-                    "pluginName": "natural_coastal_protection"
-                },
-                {
-                    "title": "<img src='img/coral_reef_fisheries.png' hspace=10>Coral Reef Fisheries App",
-                    "description": "Learn about the status of coral reef fisheries",
-                    "pluginName": "coral-reef-fisheries"
-                },
-                {
-                    "title": "<img src='img/regional_planning.png' hspace=10>Data Layers",
-                    "description": "Investigate data layers",
-                    "pluginName": "regional-planning"
-                }
-            ],
-            "partners": [
-                {
-                    "logoPath": "img/tnc1.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/worldbankgroup.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/blueeconomy2.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/end_poverty.JPG",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/boston_univ_rgb.jpg",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/NOAA_logo_color_broadcast2.jpg",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/CC-PLC-color2.jpg",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/FERU-logo.jpg",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/UBO-Hor.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/wcs-logo.jpg",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/WRI.png",
-                    "link": "",
-                    "title": ""
-                },
-                {
-                    "logoPath": "img/BS2.jpg",
-                    "link": "",
-                    "title": ""
-            }
-        ]
-    }
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"]
 }
 

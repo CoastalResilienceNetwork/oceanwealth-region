@@ -1,24 +1,8 @@
 {
     "plugins": [
         {
-            "repo": "natural-coastal-protection",
-            "name": "natural_coastal_protection"
-        },
-        {
-            "repo": "regional-planning",
-            "name": "regional-planning"
-        },
-        {
             "repo": "recreation_tourism",
             "name": "recreation-tourism"
-        },
-        {
-            "repo": "coral-reef-fisheries",
-            "name": "coral-reef-fisheries"
-        },
-        {
-            "repo": "regional-planning",
-            "name": "blue-carbon"
         }
     ]
 }

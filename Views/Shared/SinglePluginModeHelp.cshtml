@@ -1,0 +1,12 @@
+<p>This is the super web app mode for Recreation & Tourism, evaluating the global economic value of coral reefs
+<a href='http://ocaanwealth.org/' target='_blank'>Learn More</a>
+</p>
+<div style="text-align:center;">
+	<button class="button button-primary openApp">Get Started</button>
+</div>	
+
+<script>
+	$(".openApp").click(function(c){
+		$(c.currentTarget).parent().parent().parent().find(".button-link").trigger("click")
+	})
+</script>
