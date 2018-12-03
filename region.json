@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "7401895-32",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Mapping Ocean Wealth Explorer", "url": "https://dev.maps.oceanwealth.org/" },
+    "titleMain": { "text": "Mapping Ocean Wealth Explorer", "url": "https://maps.oceanwealth.org/" },
     "titleDetail": { "text": "Mapping Ocean Ecosystem Services", "url": "https://oceanwealth.org/" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://nature.org/marine/" },
@@ -51,7 +51,7 @@
     
     ],
     "print": {
-       "printServerUrl": "https://services2.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+       "printServerUrl": "https://services2.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
        "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
        "headerLogoPath": "https://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },

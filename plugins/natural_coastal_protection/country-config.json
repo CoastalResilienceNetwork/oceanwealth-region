@@ -5,42 +5,42 @@
 	},
 	"Cuba" : {
 		"EXTENT" : [-88.154297,15.686510,-69.884033,25.433353],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Cuba.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Cuba.pdf"
 	},
 	"Dominican Republic" : {
 		"EXTENT" : [-72.268066,17.098792,-68.186646,20.514499],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Dominican_Republic.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Dominican_Republic.pdf"
 	},
 	"Indonesia" : {
 		"EXTENT" : [79.804688,-19.518375,152.885742,21.289374],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Indonesia.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Indonesia.pdf"
 	},
 	"Jamaica" : {
 		"EXTENT" : [-79.843140,16.843976,-75.275574,19.321511],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Jamaica.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Jamaica.pdf"
 	},
 	"Malaysia" : {
 		"EXTENT" : [97.954102,0.351560,119.926758,9.665738],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Malaysia.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Malaysia.pdf"
 	},
 	"Mexico" : {
 		"EXTENT" : [-117.817383,15.156974,-86.132813,32.657876],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Mexico.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Mexico.pdf"
 	},
 	"Philippines" : {
 		"EXTENT" : [114.653320,4.346411,127.836914,19.766704],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Philippines.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Philippines.pdf"
 	},
 	"Saudi Arabia" : {
 		"EXTENT" : [31.904297,11.953349,60.292969,37.926868],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Saudi_Arabia.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Saudi_Arabia.pdf"
 	},
 	"Taiwan" : {
 		"EXTENT" : [119.421387,21.810508,122.343750,25.393661],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/Taiwan.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/Taiwan.pdf"
 	},
 	"US/Puerto Rico" : {
 		"EXTENT" : [-126.035156,17.392579,-65.039063,49.267805],
-		"SNAPSHOT": "http://ow-maps.oceanwealth.org/NCP_Snapshots/US_Puerto_Rico.pdf"
+		"SNAPSHOT": "https://ow-maps.oceanwealth.org/NCP_Snapshots/US_Puerto_Rico.pdf"
 	}
 }
