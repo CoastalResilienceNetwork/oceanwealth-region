@@ -37,6 +37,23 @@
         ]
     },
     {
+        "displayName": "Coasts at Risk (2014)",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Global",
+            "name": "Global",
+            "reportGpUrl": "https://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "oceanwealth.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Coasts at Risk 2014",
+                "includeAllLayers": true
+            }      
+        ]
+    },
+    {
         "displayName": "Regional Datasets",
         "server": {
             "type": "ags",
