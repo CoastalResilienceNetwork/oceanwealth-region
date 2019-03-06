@@ -17,6 +17,10 @@
             "name": "coral-reef-fisheries"
         },
         {
+            "repo": "mangrove-restoration",
+            "name": "mangrove-restoration"
+        },    
+        {
             "repo": "regional-planning",
             "name": "blue-carbon"
         }
